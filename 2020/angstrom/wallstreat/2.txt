@@ -1,0 +1,3 @@
+[31m[1mpwndbg: [0m[31m[0m[91mloaded 192 commands. Type [35mpwndbg [filter][0m[91m for a list.[0m
+[31m[1mpwndbg: [0m[31m[0m[91mcreated [35m$rebase[0m[91m, [35m$ida[0m[91m gdb functions (can be used with print/break)[0m
+[31m[1mpwndbg> [0m[31m[0m
