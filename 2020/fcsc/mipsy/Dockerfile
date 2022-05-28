@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM debian:10.12-slim
 RUN apt update
 RUN apt install -yq socat qemu-user libc6-mips64-cross
 RUN apt clean
