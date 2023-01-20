@@ -1,0 +1,72 @@
+solid 63FVUJy49U*Y.g|9IT.-e%5E8{
+	   facet normal -0.77 0.10 -0.63
+	   	   outer loop
+	   	   	   vertex 0.55 0.92 0.98
+	   	   	   vertex 0.64 0.33 0.78
+	   	   	   vertex 0.46 0.04 0.96
+	   	   endloop
+	   endfacet
+	   facet normal 0.18 0.84 0.51
+	   	   outer loop
+	   	   	   vertex 0.43 0.59 0.16
+	   	   	   vertex 0.14 0.16 0.95
+	   	   	   vertex 0.67 0.12 0.84
+	   	   endloop
+	   endfacet
+	   facet normal 0.11 0.84 -0.53
+	   	   outer loop
+	   	   	   vertex 0.22 0.79 0.83
+	   	   	   vertex 0.82 0.54 0.56
+	   	   	   vertex 0.62 0.27 0.09
+	   	   endloop
+	   endfacet
+	   facet normal -0.92 -0.09 -0.38
+	   	   outer loop
+	   	   	   vertex 0.53 0.21 0.20
+	   	   	   vertex 0.29 0.25 0.77
+	   	   	   vertex 0.23 0.61 0.84
+	   	   endloop
+	   endfacet
+	   facet normal 0.35 0.91 0.24
+	   	   outer loop
+	   	   	   vertex 0.65 0.61 0.40
+	   	   	   vertex 0.14 0.75 0.60
+	   	   	   vertex 0.26 0.60 0.97
+	   	   endloop
+	   endfacet
+	   facet normal -0.36 -0.49 -0.79
+	   	   outer loop
+	   	   	   vertex 0.99 0.39 0.62
+	   	   	   vertex 0.30 0.57 0.82
+	   	   	   vertex 0.75 0.94 0.39
+	   	   endloop
+	   endfacet
+	   facet normal 0.25 -0.71 -0.66
+	   	   outer loop
+	   	   	   vertex 0.97 0.70 0.66
+	   	   	   vertex 0.06 0.36 0.68
+	   	   	   vertex 0.65 1.00 0.22
+	   	   endloop
+	   endfacet
+	   facet normal -0.87 0.23 -0.43
+	   	   outer loop
+	   	   	   vertex 0.67 0.07 0.43
+	   	   	   vertex 0.68 0.57 0.68
+	   	   	   vertex 0.85 0.23 0.15
+	   	   endloop
+	   endfacet
+	   facet normal -0.11 0.56 -0.82
+	   	   outer loop
+	   	   	   vertex 0.67 0.17 0.29
+	   	   	   vertex 0.00 0.03 0.29
+	   	   	   vertex 0.52 0.71 0.68
+	   	   endloop
+	   endfacet
+	   facet normal -0.82 -0.52 0.25
+	   	   outer loop
+	   	   	   vertex 0.62 0.23 0.60
+	   	   	   vertex 0.71 0.17 0.74
+	   	   	   vertex 0.21 0.87 0.59
+	   	   endloop
+	   endfacet
+endsolid 63FVUJy49U*Y.g|9IT.-e%5E8{

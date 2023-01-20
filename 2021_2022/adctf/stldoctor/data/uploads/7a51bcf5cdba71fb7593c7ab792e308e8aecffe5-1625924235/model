@@ -1,0 +1,65 @@
+solid ENOCAAAAAAAAAA/AAAAJgAAAOro7ptc/hbgswvBCc7rnz42X/cq
+		 facet normal 0.92 0.38 0.02
+		 		 outer loop
+		 		 		 vertex 0.13 0.82 0.81
+		 		 		 vertex 0.36 0.27 0.83
+		 		 		 vertex 0.29 0.48 0.25
+		 		 endloop
+		 endfacet
+		 facet normal 0.27 0.91 0.30
+		 		 outer loop
+		 		 		 vertex 0.14 0.80 0.19
+		 		 		 vertex 0.24 0.54 0.88
+		 		 		 vertex 0.80 0.50 0.52
+		 		 endloop
+		 endfacet
+		 facet normal -0.10 -0.67 -0.74
+		 		 outer loop
+		 		 		 vertex 0.52 0.74 0.22
+		 		 		 vertex 0.75 0.22 0.66
+		 		 		 vertex 0.11 0.84 0.18
+		 		 endloop
+		 endfacet
+		 facet normal 0.53 -0.31 -0.79
+		 		 outer loop
+		 		 		 vertex 0.72 0.09 0.85
+		 		 		 vertex 0.29 0.47 0.40
+		 		 		 vertex 0.85 0.65 0.71
+		 		 endloop
+		 endfacet
+		 facet normal 0.21 0.46 -0.86
+		 		 outer loop
+		 		 		 vertex 0.37 0.62 0.32
+		 		 		 vertex 0.16 0.95 0.45
+		 		 		 vertex 0.93 0.63 0.46
+		 		 endloop
+		 endfacet
+		 facet normal 0.00 -0.09 -1.00
+		 		 outer loop
+		 		 		 vertex 0.11 0.54 0.77
+		 		 		 vertex 0.21 0.25 0.80
+		 		 		 vertex 0.08 0.43 0.78
+		 		 endloop
+		 endfacet
+		 facet normal 0.30 -0.72 0.63
+		 		 outer loop
+		 		 		 vertex 0.01 0.26 0.22
+		 		 		 vertex 0.12 0.39 0.32
+		 		 		 vertex 0.21 0.87 0.81
+		 		 endloop
+		 endfacet
+		 facet normal 0.76 0.16 0.63
+		 		 outer loop
+		 		 		 vertex 0.54 0.06 0.75
+		 		 		 vertex 0.67 0.54 0.46
+		 		 		 vertex 0.46 0.34 0.77
+		 		 endloop
+		 endfacet
+		 facet normal 0.58 -0.37 -0.72
+		 		 outer loop
+		 		 		 vertex 0.46 0.78 0.11
+		 		 		 vertex 0.74 0.90 0.27
+		 		 		 vertex 0.67 0.18 0.58
+		 		 endloop
+		 endfacet
+endsolid ENOCAAAAAAAAAA/AAAAJgAAAOro7ptc/hbgswvBCc7rnz42X/cq

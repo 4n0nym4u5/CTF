@@ -1,0 +1,592 @@
+[*] '/home/init0/share/bkup/CTF/pragyan22/pwn/Portal/load'
+    Arch:     amd64-64-little
+    RELRO:    Full RELRO
+    Stack:    Canary found
+    NX:       NX enabled
+    PIE:      PIE enabled
+[*] '/lib/x86_64-linux-gnu/libc.so.6'
+    Arch:     amd64-64-little
+    RELRO:    Partial RELRO
+    Stack:    Canary found
+    NX:       NX enabled
+    PIE:      PIE enabled
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x56205b02417f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x56205b022000[0m
+FLAG b'%0$p\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x557e2a19b17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x557e2a199000[0m
+FLAG b'0x7f45c52db723\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x556f5440b17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x556f54409000[0m
+FLAG b'(nil)\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55b977ee917f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55b977ee7000[0m
+FLAG b'0x7effe3f891e7\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x556ae731317f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x556ae7311000[0m
+FLAG b'0x20\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55886caea17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55886cae8000[0m
+FLAG b'(nil)\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55d4f287817f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55d4f2876000[0m
+FLAG b'0x55d4f291e2a0\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55d58e23817f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55d58e236000[0m
+FLAG b'0x55d58ef01480\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55c70a34017f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55c70a33e000[0m
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x556d672af17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x556d672ad000[0m
+FLAG b'0x34575f74315f6c6c\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55df99f6c17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55df99f6a000[0m
+FLAG b'0x305f795361335f73\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55912817c17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55912817a000[0m
+FLAG b'0x7d79316e\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x560e5157c17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x560e5157a000[0m
+FLAG b'0xd68\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55e8e40a817f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55e8e40a6000[0m
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x5565e62d917f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x5565e62d7000[0m
+FLAG b'0x7f0a6a8af6a0\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55adaee7d17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55adaee7b000[0m
+FLAG b'0x55adaee7d17f\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55a693e4b17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55a693e49000[0m
+FLAG b'0x55a693e4d020\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x5560ff79b17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x5560ff799000[0m
+FLAG b'0x7f3e2cf044a0\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55eca3ff017f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55eca3fee000[0m
+FLAG b'(nil)\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x563af597017f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x563af596e000[0m
+FLAG b'0x7fdda25f3013\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x56035150417f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x560351502000[0m
+FLAG b'0xf\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x562a39b3017f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x562a39b2e000[0m
+FLAG b'0x7fd451cf46a0\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55b70cb2017f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55b70cb1e000[0m
+FLAG b'0x55b70cb2017f\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x56025055417f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x560250552000[0m
+FLAG b'0x7f6cfbbca980\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x5630d881a17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x5630d8818000[0m
+FLAG b'0x7febf578e4a0\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x562c4de6d17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x562c4de6b000[0m
+FLAG b'0x1e99b7a1064a6900\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55f470f4117f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55f470f3f000[0m
+FLAG b'0x7ffdabeb62c0\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55aff937917f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55aff9377000[0m
+FLAG b'0x55aff9378642\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55779783917f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x557797837000[0m
+FLAG b'0x7ffc9fede620\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55afd54a417f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55afd54a2000[0m
+FLAG b'0x55afd54a377a\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55816fa4f17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55816fa4d000[0m
+FLAG b'0x2dd330c20\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55af46d7317f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55af46d71000[0m
+FLAG b'0x77cfea9b97a8fc00\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55b7dea5917f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55b7dea57000[0m
+FLAG b'(nil)\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x557402adf17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x557402add000[0m
+FLAG b'0x7ff78c6b20b3\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x5611c0bea17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x5611c0be8000[0m
+FLAG b'0x7f727b486620\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x555fe45a417f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x555fe45a2000[0m
+FLAG b'0x7ffdf3e77f78\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x559ae110f17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x559ae110d000[0m
+FLAG b'0x100000000\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55888678017f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55888677e000[0m
+FLAG b'0x55888677f6c2\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x562e6e8da17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x562e6e8d8000[0m
+FLAG b'0x562e6e8d97e0\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x559e44f9d17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x559e44f9b000[0m
+FLAG b'0xac59fe53254a4afb\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x5563080e317f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x5563080e1000[0m
+FLAG b'0x5563080e2220\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x5582d95ea17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x5582d95e8000[0m
+FLAG b'0x7ffe6c796de0\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x557ee0d2717f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x557ee0d25000[0m
+FLAG b'(nil)\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55562694817f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x555626946000[0m
+FLAG b'(nil)\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x560d0f28417f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x560d0f282000[0m
+FLAG b'0x5e4f66a34d65f5db\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55a8ec01417f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55a8ec012000[0m
+FLAG b'0xf2fd33134955f590\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x5599c7c2f17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x5599c7c2d000[0m
+FLAG b'(nil)\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x564c907f617f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x564c907f4000[0m
+FLAG b'(nil)\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x56346d4a717f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x56346d4a5000[0m
+FLAG b'(nil)\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x561d67bfe17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x561d67bfc000[0m
+FLAG b'0x1\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x562c4168d17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x562c4168b000[0m
+FLAG b'0x7ffd42542808\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x5583f66b517f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x5583f66b3000[0m
+FLAG b'0x7ffd8850a948\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55d2c2c5f17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55d2c2c5d000[0m
+FLAG b'0x7f0f706b6190\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x5563077d117f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x5563077cf000[0m
+FLAG b'(nil)\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x5575dfac817f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x5575dfac6000[0m
+FLAG b'(nil)\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x558e389af17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x558e389ad000[0m
+FLAG b'0x558e389ae220\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x5628062ed17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x5628062eb000[0m
+FLAG b'0x7ffe6f72b980\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x56300532b17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x563005329000[0m
+FLAG b'(nil)\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x557eff6d017f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x557eff6ce000[0m
+FLAG b'(nil)\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x5621eefa317f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x5621eefa1000[0m
+FLAG b'0x5621eefa224e\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x564fbe8df17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x564fbe8dd000[0m
+FLAG b'0x7fff8c133178\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x5561df42e17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x5561df42c000[0m
+FLAG b'0x1c\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55c47e21817f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55c47e216000[0m
+FLAG b'0x1\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55b9c09c517f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55b9c09c3000[0m
+FLAG b'0x7fff8aec9fe2\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x562fc4e0817f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x562fc4e06000[0m
+FLAG b'(nil)\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55cbfe66017f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55cbfe65e000[0m
+FLAG b'(nil)\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x557d7189717f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x557d71895000[0m
+FLAG b'0x21\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x559a0f5c717f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x559a0f5c5000[0m
+FLAG b'0x7fff24dd5000\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55b3297f517f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55b3297f3000[0m
+FLAG b'0x10\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x5580c5eb417f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x5580c5eb2000[0m
+FLAG b'0x1f8bfbff\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x56328975017f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x56328974e000[0m
+FLAG b'0x6\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55b8b14f117f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55b8b14ef000[0m
+FLAG b'0x1000\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x5619a103117f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x5619a102f000[0m
+FLAG b'0x11\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x563c84c5217f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x563c84c50000[0m
+FLAG b'0x64\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x556e6415317f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x556e64151000[0m
+FLAG b'0x3\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55686323317f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x556863231000[0m
+FLAG b'0x556863231040\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x56155b14017f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x56155b13e000[0m
+FLAG b'0x4\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x5639606ea17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x5639606e8000[0m
+FLAG b'0x38\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x56437efed17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x56437efeb000[0m
+FLAG b'0x5\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x5567bc72917f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x5567bc727000[0m
+FLAG b'0xd\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55674f7a517f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55674f7a3000[0m
+FLAG b'0x7\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x558cef46d17f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x558cef46b000[0m
+FLAG b'0x7f6d00aa8000\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done
+[b'0x55d93ce9917f', b'\n']
+[31m	[[0m[92m+[0m[31m] [0m[1mPIE base : 0x55d93ce97000[0m
+FLAG b'0x8\n'
+[*] Closed connection to binary.challs.pragyanctf.tech port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003
+[x] Opening connection to binary.challs.pragyanctf.tech on port 6003: Trying 159.203.157.131
+[+] Opening connection to binary.challs.pragyanctf.tech on port 6003: Done

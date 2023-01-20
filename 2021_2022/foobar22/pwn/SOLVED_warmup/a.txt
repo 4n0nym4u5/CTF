@@ -1,0 +1,1329 @@
+[*] '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+    Arch:     amd64-64-little
+    RELRO:    Full RELRO
+    Stack:    Canary found
+    NX:       NX enabled
+    PIE:      PIE enabled
+[*] '/lib/x86_64-linux-gnu/libc.so.6'
+    Arch:     amd64-64-little
+    RELRO:    Partial RELRO
+    Stack:    Canary found
+    NX:       NX enabled
+    PIE:      PIE enabled
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5381
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5382
+canary => 0x41e7423fb7770a00
+[*] Stopped process '/usr/bin/gdb' (pid 5382)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5381)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5391
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5392
+canary => 0x12ffb0de463afd00
+[*] Stopped process '/usr/bin/gdb' (pid 5392)
+MATCH : 2 0x12ffb0de463afd00 0xa702431
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5391)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5400
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5401
+canary => 0xda0721c38774e900
+[*] Stopped process '/usr/bin/gdb' (pid 5401)
+MATCH : 3 0xda0721c38774e900 0xfbad2088
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5400)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5408
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5409
+canary => 0x913089d725170500
+[*] Stopped process '/usr/bin/gdb' (pid 5409)
+MATCH : 4 0x913089d725170500 0x561e7bd2d2a5
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5408)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5416
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5417
+canary => 0x56e8d2ce292d100
+[*] Stopped process '/usr/bin/gdb' (pid 5417)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5416)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5424
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5425
+canary => 0x5233b1e7401eb400
+[*] Stopped process '/usr/bin/gdb' (pid 5425)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5424)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5432
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5433
+canary => 0x51bf91682954a00
+[*] Stopped process '/usr/bin/gdb' (pid 5433)
+MATCH : 7 0x51bf91682954a00 0xa70243625
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5432)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5441
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5442
+canary => 0xa0bd2d131b029a00
+[*] Stopped process '/usr/bin/gdb' (pid 5442)
+MATCH : 8 0xa0bd2d131b029a00 0x40
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5441)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5449
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5451
+canary => 0x33596db939bafd00
+[*] Stopped process '/usr/bin/gdb' (pid 5451)
+MATCH : 9 0x33596db939bafd00 0x8
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5449)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5460
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5461
+canary => 0xe938f2104f187300
+[*] Stopped process '/usr/bin/gdb' (pid 5461)
+MATCH : 10 0xe938f2104f187300 0x7f92e5036760
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5460)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5468
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5469
+canary => 0x2d82390ea9e8cb00
+[*] Stopped process '/usr/bin/gdb' (pid 5469)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5468)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5476
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5477
+canary => 0x3eb37cc181ff500
+[*] Stopped process '/usr/bin/gdb' (pid 5477)
+MATCH : 12 0x3eb37cc181ff500 0x7fb6057a5385
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5476)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5484
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5485
+canary => 0x8e55b9b3c3d88600
+[*] Stopped process '/usr/bin/gdb' (pid 5485)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5484)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5497
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5498
+canary => 0x1a9e901a6df2d300
+[*] Stopped process '/usr/bin/gdb' (pid 5498)
+MATCH : 14 0x1a9e901a6df2d300 0x7f624ba2a760
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5497)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5505
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5506
+canary => 0xeaa918cc443b2a00
+[*] Stopped process '/usr/bin/gdb' (pid 5506)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5505)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5513
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5514
+canary => 0x32ed72b2e205a000
+[*] Stopped process '/usr/bin/gdb' (pid 5514)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5513)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5521
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5522
+canary => 0x6b9b04d80b2c1300
+[*] Stopped process '/usr/bin/gdb' (pid 5522)
+MATCH : 17 0x6b9b04d80b2c1300 0x7ff48a7a7560
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5521)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5529
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5530
+canary => 0xe4ec6beeb7c1600
+[*] Stopped process '/usr/bin/gdb' (pid 5530)
+MATCH : 18 0xe4ec6beeb7c1600 0x7f7e35a7452d
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5529)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5538
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5539
+canary => 0xc186f70c4637ba00
+[*] Stopped process '/usr/bin/gdb' (pid 5539)
+MATCH : 19 0xc186f70c4637ba00 0x7f36f69e5760
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5538)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5546
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5547
+canary => 0xb3c0cba33b6e6100
+[*] Stopped process '/usr/bin/gdb' (pid 5547)
+MATCH : 20 0xb3c0cba33b6e6100 0x7fa3370e4765
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5546)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5554
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5555
+canary => 0xfdea085f71fdef00
+[*] Stopped process '/usr/bin/gdb' (pid 5555)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5554)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5562
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5563
+canary => 0x6a8fa1e6dd934300
+[*] Stopped process '/usr/bin/gdb' (pid 5563)
+MATCH : 22 0x6a8fa1e6dd934300 0x7ffc0b1aef30
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5562)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5570
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5571
+canary => 0xe824ca6334587300
+[*] Stopped process '/usr/bin/gdb' (pid 5571)
+MATCH : 23 0xe824ca6334587300 0x7ffdb519f838
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5570)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5578
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5579
+canary => 0x6b634ca341e69600
+[*] Stopped process '/usr/bin/gdb' (pid 5579)
+MATCH : 24 0x6b634ca341e69600 0x6b634ca341e69600
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5578)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5587
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5588
+canary => 0x55f0ce43dfe57400
+[*] Stopped process '/usr/bin/gdb' (pid 5588)
+MATCH : 25 0x55f0ce43dfe57400 0x7fff09d26ff0
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5587)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5595
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5596
+canary => 0x87360c8b7fd56300
+[*] Stopped process '/usr/bin/gdb' (pid 5596)
+MATCH : 26 0x87360c8b7fd56300 0x5596b71ae2d5
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5595)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5603
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5604
+canary => 0xbf0088bd494c600
+[*] Stopped process '/usr/bin/gdb' (pid 5604)
+MATCH : 27 0xbf0088bd494c600 0x1
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5603)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5611
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5612
+canary => 0x8a132a1c15b89300
+[*] Stopped process '/usr/bin/gdb' (pid 5612)
+MATCH : 28 0x8a132a1c15b89300 0x7f2fa1db2fd0
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5611)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5621
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5622
+canary => 0x894d6e9786ed9000
+[*] Stopped process '/usr/bin/gdb' (pid 5622)
+MATCH : 29 0x894d6e9786ed9000 0x55b3719db040
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5621)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5631
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5632
+canary => 0x29fe2c0146dc4500
+[*] Stopped process '/usr/bin/gdb' (pid 5632)
+MATCH : 30 0x29fe2c0146dc4500 0x5598c4fba2a5
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5631)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5640
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5641
+canary => 0xb6891b802dcea900
+[*] Stopped process '/usr/bin/gdb' (pid 5641)
+MATCH : 31 0xb6891b802dcea900 0x100000000
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5640)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5651
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5652
+canary => 0x5ef13b0ee0516c00
+[*] Stopped process '/usr/bin/gdb' (pid 5652)
+MATCH : 32 0x5ef13b0ee0516c00 0x7ffcd2af1f38
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5651)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5659
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5660
+canary => 0x6a7b6d855fe6ce00
+[*] Stopped process '/usr/bin/gdb' (pid 5660)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5659)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5667
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5668
+canary => 0x428a74690b36100
+[*] Stopped process '/usr/bin/gdb' (pid 5668)
+MATCH : 34 0x428a74690b36100 0x177e830f46720e17
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5667)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5675
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5676
+canary => 0xe864dd6a47ed1700
+[*] Stopped process '/usr/bin/gdb' (pid 5676)
+MATCH : 35 0xe864dd6a47ed1700 0x7ffe0f26da68
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5675)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5684
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5685
+canary => 0xc874c1cc9d51ef00
+[*] Stopped process '/usr/bin/gdb' (pid 5685)
+MATCH : 36 0xc874c1cc9d51ef00 0x561ccb2d42a5
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5684)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5693
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5694
+canary => 0xc6089978e991300
+[*] Stopped process '/usr/bin/gdb' (pid 5694)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5693)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5701
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5702
+canary => 0x7165cb290e4bd700
+[*] Stopped process '/usr/bin/gdb' (pid 5702)
+MATCH : 38 0x7165cb290e4bd700 0x7fbd8d20bc40
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5701)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5712
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5713
+canary => 0xd816c5787c810500
+[*] Stopped process '/usr/bin/gdb' (pid 5713)
+MATCH : 39 0xd816c5787c810500 0x8b61d4e0897cc67b
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5712)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5721
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5722
+canary => 0xb2dd28764c3eb700
+[*] Stopped process '/usr/bin/gdb' (pid 5722)
+MATCH : 40 0xb2dd28764c3eb700 0x21661c033a4a596c
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5721)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5730
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5731
+canary => 0x741f2c9fb8f2b600
+[*] Stopped process '/usr/bin/gdb' (pid 5731)
+MATCH : 41 0x741f2c9fb8f2b600 0x7f9900000000
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5730)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5738
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5739
+canary => 0x4b251f5cb4718700
+[*] Stopped process '/usr/bin/gdb' (pid 5739)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5738)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5752
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5753
+canary => 0xc787ded0cb55da00
+[*] Stopped process '/usr/bin/gdb' (pid 5753)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5752)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5760
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5761
+canary => 0x8c8d396fe5abcb00
+[*] Stopped process '/usr/bin/gdb' (pid 5761)
+MATCH : 44 0x8c8d396fe5abcb00 0x7ffe3e4d9c68
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5760)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5771
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5772
+canary => 0x9e51192b2275e900
+[*] Stopped process '/usr/bin/gdb' (pid 5772)
+MATCH : 45 0x9e51192b2275e900 0x55e13987c2a5
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5771)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5779
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5780
+canary => 0x8331a8b6d5ca7400
+[*] Stopped process '/usr/bin/gdb' (pid 5780)
+MATCH : 46 0x8331a8b6d5ca7400 0x8331a8b6d5ca7400
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5779)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5788
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5789
+canary => 0xdf39764cd55ff900
+[*] Stopped process '/usr/bin/gdb' (pid 5789)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5788)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5797
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5798
+canary => 0xfc872d7a99448900
+[*] Stopped process '/usr/bin/gdb' (pid 5798)
+MATCH : 48 0xfc872d7a99448900 0x7f1ef130407d
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5797)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5809
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5810
+canary => 0x922d65a90cb21100
+[*] Stopped process '/usr/bin/gdb' (pid 5810)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5809)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5817
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5818
+canary => 0x604c4dbb73b96500
+[*] Stopped process '/usr/bin/gdb' (pid 5818)
+MATCH : 50 0x604c4dbb73b96500 0x1
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5817)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5825
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5826
+canary => 0x7bd4d8b6bee26200
+[*] Stopped process '/usr/bin/gdb' (pid 5826)
+MATCH : 51 0x7bd4d8b6bee26200 0x7ffe08efe0a8
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5825)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5833
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5834
+canary => 0xfa8942a1ce5eed00
+[*] Stopped process '/usr/bin/gdb' (pid 5834)
+MATCH : 52 0xfa8942a1ce5eed00 0x7ffe2bb4cf88
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5833)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5845
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5846
+canary => 0x6ef44771bb368400
+[*] Stopped process '/usr/bin/gdb' (pid 5846)
+MATCH : 53 0x6ef44771bb368400 0x7fa31b564220
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5845)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5853
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5854
+canary => 0xba08ab100afd8800
+[*] Stopped process '/usr/bin/gdb' (pid 5854)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5853)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5861
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5862
+canary => 0xa01bb503cf893900
+[*] Stopped process '/usr/bin/gdb' (pid 5862)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5861)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5869
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5870
+canary => 0x5dfc7904735e5c00
+[*] Stopped process '/usr/bin/gdb' (pid 5870)
+MATCH : 56 0x5dfc7904735e5c00 0x564ade280120
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5869)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5877
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5878
+canary => 0x6eba7e05f0ada200
+[*] Stopped process '/usr/bin/gdb' (pid 5878)
+MATCH : 57 0x6eba7e05f0ada200 0x7ffe2bc4b8f0
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5877)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5886
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5887
+canary => 0x2db717c4814f3900
+[*] Stopped process '/usr/bin/gdb' (pid 5887)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5886)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5894
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5895
+canary => 0x2b1b7b77569adf00
+[*] Stopped process '/usr/bin/gdb' (pid 5895)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5894)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5904
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5905
+canary => 0x524ecc65b15dc100
+[*] Stopped process '/usr/bin/gdb' (pid 5905)
+MATCH : 60 0x524ecc65b15dc100 0x555c2e03814e
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5904)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5912
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5913
+canary => 0xba096087b034500
+[*] Stopped process '/usr/bin/gdb' (pid 5913)
+MATCH : 61 0xba096087b034500 0x7ffd9a92b2c8
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5912)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5920
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5921
+canary => 0xa814aabca9751e00
+[*] Stopped process '/usr/bin/gdb' (pid 5921)
+MATCH : 62 0xa814aabca9751e00 0x1c
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5920)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5929
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5930
+canary => 0x7de5ac9e20f90400
+[*] Stopped process '/usr/bin/gdb' (pid 5930)
+MATCH : 63 0x7de5ac9e20f90400 0x1
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5929)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5937
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5938
+canary => 0xaf5d23222978da00
+[*] Stopped process '/usr/bin/gdb' (pid 5938)
+MATCH : 64 0xaf5d23222978da00 0x7ffe728511a5
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5937)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5945
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5946
+canary => 0xc00846f01610c500
+[*] Stopped process '/usr/bin/gdb' (pid 5946)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5945)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5953
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5954
+canary => 0x2e7bb9f995f50900
+[*] Stopped process '/usr/bin/gdb' (pid 5954)
+MATCH : 66 0x2e7bb9f995f50900 0x7ffd201971da
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5953)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5961
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5962
+canary => 0x46aff56f47b8c300
+[*] Stopped process '/usr/bin/gdb' (pid 5962)
+MATCH : 67 0x46aff56f47b8c300 0x7ffeeb413203
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5961)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5969
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5970
+canary => 0xcf3af9292b95ae00
+[*] Stopped process '/usr/bin/gdb' (pid 5970)
+MATCH : 68 0xcf3af9292b95ae00 0x7ffeb9bbd25b
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5969)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5978
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5979
+canary => 0x11552f6298b7e700
+[*] Stopped process '/usr/bin/gdb' (pid 5979)
+MATCH : 69 0x11552f6298b7e700 0x7ffddb0c3266
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5978)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5988
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5989
+canary => 0xdaa6aaa98c36e400
+[*] Stopped process '/usr/bin/gdb' (pid 5989)
+MATCH : 70 0xdaa6aaa98c36e400 0x7ffc21e77284
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5988)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 5996
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 5997
+canary => 0x6971171980934800
+[*] Stopped process '/usr/bin/gdb' (pid 5997)
+MATCH : 71 0x6971171980934800 0x7ffe71ef0296
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 5996)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6006
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6007
+canary => 0xc1e20ab563b05f00
+[*] Stopped process '/usr/bin/gdb' (pid 6007)
+MATCH : 72 0xc1e20ab563b05f00 0x7ffd5b6d92b7
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6006)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6014
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6015
+canary => 0x6b42ae205d3b3900
+[*] Stopped process '/usr/bin/gdb' (pid 6015)
+MATCH : 73 0x6b42ae205d3b3900 0x7ffe6b8b32da
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6014)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6022
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6023
+canary => 0xa04d744158ef6300
+[*] Stopped process '/usr/bin/gdb' (pid 6023)
+MATCH : 74 0xa04d744158ef6300 0x7ffc52d9030b
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6022)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6031
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6032
+canary => 0xf88eaa3a76af3e00
+[*] Stopped process '/usr/bin/gdb' (pid 6032)
+MATCH : 75 0xf88eaa3a76af3e00 0x7ffe1923431f
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6031)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6039
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6040
+canary => 0xd4bacf022e75fe00
+[*] Stopped process '/usr/bin/gdb' (pid 6040)
+MATCH : 76 0xd4bacf022e75fe00 0x7ffcb565e353
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6039)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6047
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6048
+canary => 0x5fce4baa1f0ac500
+[*] Stopped process '/usr/bin/gdb' (pid 6048)
+MATCH : 77 0x5fce4baa1f0ac500 0x7ffe0fda1365
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6047)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6055
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6056
+canary => 0x4a5a4d1f93c85300
+[*] Stopped process '/usr/bin/gdb' (pid 6056)
+MATCH : 78 0x4a5a4d1f93c85300 0x7ffe53063376
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6055)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6063
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6064
+canary => 0xeff4f064ba1ae300
+[*] Stopped process '/usr/bin/gdb' (pid 6064)
+MATCH : 79 0xeff4f064ba1ae300 0x7ffd0534f381
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6063)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6072
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6073
+canary => 0xfd619cf7ab8e6f00
+[*] Stopped process '/usr/bin/gdb' (pid 6073)
+MATCH : 80 0xfd619cf7ab8e6f00 0x7ffc5a4dd398
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6072)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6080
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6081
+canary => 0x987e0e93d95b5b00
+[*] Stopped process '/usr/bin/gdb' (pid 6081)
+MATCH : 81 0x987e0e93d95b5b00 0x7ffe354c23d2
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6080)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6089
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6091
+canary => 0x6364a04dd539d100
+[*] Stopped process '/usr/bin/gdb' (pid 6091)
+MATCH : 82 0x6364a04dd539d100 0x7ffce9ca13f1
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6089)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6098
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6099
+canary => 0xef8f4fce038ddf00
+[*] Stopped process '/usr/bin/gdb' (pid 6099)
+MATCH : 83 0xef8f4fce038ddf00 0x7ffc24be9427
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6098)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6106
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6107
+canary => 0xd6623a3484f8bc00
+[*] Stopped process '/usr/bin/gdb' (pid 6107)
+MATCH : 84 0xd6623a3484f8bc00 0x7ffe2f196446
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6106)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6114
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6115
+canary => 0x81896b5a884dcd00
+[*] Stopped process '/usr/bin/gdb' (pid 6115)
+MATCH : 85 0x81896b5a884dcd00 0x7ffe09e4747b
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6114)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6151
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6152
+canary => 0x50aa2c4fa0b7d00
+[*] Stopped process '/usr/bin/gdb' (pid 6152)
+MATCH : 86 0x50aa2c4fa0b7d00 0x7ffc5782c48c
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6151)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6159
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6160
+canary => 0x133c0c0848807d00
+[*] Stopped process '/usr/bin/gdb' (pid 6160)
+MATCH : 87 0x133c0c0848807d00 0x7ffc96dce4af
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6159)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6167
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6168
+canary => 0x6a25f424b51ce00
+[*] Stopped process '/usr/bin/gdb' (pid 6168)
+MATCH : 88 0x6a25f424b51ce00 0x7fff5d97c4c2
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6167)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6175
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6176
+canary => 0x3a407a6d3ae15c00
+[*] Stopped process '/usr/bin/gdb' (pid 6176)
+MATCH : 89 0x3a407a6d3ae15c00 0x7ffd96d164ee
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6175)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6185
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6186
+canary => 0xd45d1d88cacf9400
+[*] Stopped process '/usr/bin/gdb' (pid 6186)
+MATCH : 90 0xd45d1d88cacf9400 0x7ffe0ea9c4fc
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6185)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6193
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6194
+canary => 0x67d65107c5707700
+[*] Stopped process '/usr/bin/gdb' (pid 6194)
+MATCH : 91 0x67d65107c5707700 0x7ffd7f399530
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6193)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6202
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6203
+canary => 0x3cb559f35038e600
+[*] Stopped process '/usr/bin/gdb' (pid 6203)
+MATCH : 92 0x3cb559f35038e600 0x7ffc4ce9f543
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6202)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6210
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6211
+canary => 0x5667d1f549e5ae00
+[*] Stopped process '/usr/bin/gdb' (pid 6211)
+MATCH : 93 0x5667d1f549e5ae00 0x7ffeb301664a
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6210)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6220
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6221
+canary => 0x223d77415c2fed00
+[*] Stopped process '/usr/bin/gdb' (pid 6221)
+MATCH : 94 0x223d77415c2fed00 0x7fff0c0c565e
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6220)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6228
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6229
+canary => 0x76ddef4105ae0700
+[*] Stopped process '/usr/bin/gdb' (pid 6229)
+MATCH : 95 0x76ddef4105ae0700 0x7ffff1e0d671
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6228)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6236
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6237
+canary => 0x20052875784fcb00
+[*] Stopped process '/usr/bin/gdb' (pid 6237)
+MATCH : 96 0x20052875784fcb00 0x7fff26736686
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6236)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6245
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6246
+canary => 0xf0dca983f6363000
+[*] Stopped process '/usr/bin/gdb' (pid 6246)
+MATCH : 97 0xf0dca983f6363000 0x7fffc8baf6b4
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6245)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6253
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6254
+canary => 0xb6e4975c61a41600
+[*] Stopped process '/usr/bin/gdb' (pid 6254)
+MATCH : 98 0xb6e4975c61a41600 0x7ffd500b66d3
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6253)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6261
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6262
+canary => 0x2e31bbcbeff9b800
+[*] Stopped process '/usr/bin/gdb' (pid 6262)
+MATCH : 99 0x2e31bbcbeff9b800 0x7fffe9e0172e
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6261)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6269
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6270
+canary => 0xcc03ad5717c90d00
+[*] Stopped process '/usr/bin/gdb' (pid 6270)
+MATCH : 100 0xcc03ad5717c90d00 0x7ffcb580e786
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6269)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6279
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6280
+canary => 0x90f8e3e34140c400
+[*] Stopped process '/usr/bin/gdb' (pid 6280)
+MATCH : 101 0x90f8e3e34140c400 0x7ffcec60c795
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6279)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6289
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6290
+canary => 0xac04e8290c20e500
+[*] Stopped process '/usr/bin/gdb' (pid 6290)
+MATCH : 102 0xac04e8290c20e500 0x7ffd11bbd79d
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6289)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6298
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6299
+canary => 0x2eb4ffd8c5b13f00
+[*] Stopped process '/usr/bin/gdb' (pid 6299)
+MATCH : 103 0x2eb4ffd8c5b13f00 0x7ffd8a7b37c0
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6298)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6306
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6307
+canary => 0x61d6a7dc5d8b1000
+[*] Stopped process '/usr/bin/gdb' (pid 6307)
+MATCH : 104 0x61d6a7dc5d8b1000 0x7ffe6012c7f3
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6306)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6314
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6315
+canary => 0x3449e705dcf47d00
+[*] Stopped process '/usr/bin/gdb' (pid 6315)
+MATCH : 105 0x3449e705dcf47d00 0x7ffdf2dc080a
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6314)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6322
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6323
+canary => 0x2b18c2d46680ff00
+[*] Stopped process '/usr/bin/gdb' (pid 6323)
+MATCH : 106 0x2b18c2d46680ff00 0x7ffc29197815
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6322)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6330
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6331
+canary => 0x98c4d4639a780600
+[*] Stopped process '/usr/bin/gdb' (pid 6331)
+MATCH : 107 0x98c4d4639a780600 0x7ffd5624c82f
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6330)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6338
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6339
+canary => 0x15b7951b2701cc00
+[*] Stopped process '/usr/bin/gdb' (pid 6339)
+MATCH : 108 0x15b7951b2701cc00 0x7fff7fdad843
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6338)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6347
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6348
+canary => 0xc78992c1c2ffae00
+[*] Stopped process '/usr/bin/gdb' (pid 6348)
+MATCH : 109 0xc78992c1c2ffae00 0x7ffcb5301872
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6347)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6355
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6356
+canary => 0xfeb857715a641900
+[*] Stopped process '/usr/bin/gdb' (pid 6356)
+MATCH : 110 0xfeb857715a641900 0x7ffe4319588d
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6355)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6363
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6364
+canary => 0xc5fcc521b63e1900
+[*] Stopped process '/usr/bin/gdb' (pid 6364)
+MATCH : 111 0xc5fcc521b63e1900 0x7ffe7abf8898
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6363)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6371
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6372
+canary => 0x9786933c78cdf100
+[*] Stopped process '/usr/bin/gdb' (pid 6372)
+MATCH : 112 0x9786933c78cdf100 0x7ffcf70e88a0
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6371)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6379
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6380
+canary => 0xa048145259739600
+[*] Stopped process '/usr/bin/gdb' (pid 6380)
+MATCH : 113 0xa048145259739600 0x7ffdadea88c0
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6379)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6387
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6388
+canary => 0x149fbb5935cf3000
+[*] Stopped process '/usr/bin/gdb' (pid 6388)
+MATCH : 114 0x149fbb5935cf3000 0x7ffd188b6eaf
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6387)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6396
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6397
+canary => 0x27779caf93953800
+[*] Stopped process '/usr/bin/gdb' (pid 6397)
+MATCH : 115 0x27779caf93953800 0x7fff2ef9aec2
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6396)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6406
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6407
+canary => 0xb3503b9621c2ea00
+[*] Stopped process '/usr/bin/gdb' (pid 6407)
+MATCH : 116 0xb3503b9621c2ea00 0x7fff091b8ee3
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6406)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6414
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6415
+canary => 0xc1a4027984285100
+[*] Stopped process '/usr/bin/gdb' (pid 6415)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6414)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6430
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6431
+canary => 0x9332049d538ca900
+[*] Stopped process '/usr/bin/gdb' (pid 6431)
+MATCH : 118 0x9332049d538ca900 0x7ffdedc64f14
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6430)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6438
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6439
+canary => 0xaeb5eb7db335e00
+[*] Stopped process '/usr/bin/gdb' (pid 6439)
+MATCH : 119 0xaeb5eb7db335e00 0x7fff37bb4f36
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6438)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6447
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6448
+canary => 0xb0665738dfb3f400
+[*] Stopped process '/usr/bin/gdb' (pid 6448)
+MATCH : 120 0xb0665738dfb3f400 0x7ffd52c4cf4c
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6447)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6457
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6458
+canary => 0xb23809c6d80f0c00
+[*] Stopped process '/usr/bin/gdb' (pid 6458)
+MATCH : 121 0xb23809c6d80f0c00 0x7fffa4064f56
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6457)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6465
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6466
+canary => 0xcbdbd5a5c12e1900
+[*] Stopped process '/usr/bin/gdb' (pid 6466)
+MATCH : 122 0xcbdbd5a5c12e1900 0x7ffe03c76f62
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6465)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6473
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6474
+canary => 0xa5ebc0dfbfe9dc00
+[*] Stopped process '/usr/bin/gdb' (pid 6474)
+MATCH : 123 0xa5ebc0dfbfe9dc00 0x7ffdd526af76
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6473)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6481
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6482
+canary => 0xaaba1ce69d472600
+[*] Stopped process '/usr/bin/gdb' (pid 6482)
+MATCH : 124 0xaaba1ce69d472600 0x7ffc068a5f88
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6481)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6490
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6491
+canary => 0xe424fd3d23395a00
+[*] Stopped process '/usr/bin/gdb' (pid 6491)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6490)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6498
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6499
+canary => 0xadbf34d66a057700
+[*] Stopped process '/usr/bin/gdb' (pid 6499)
+MATCH : 126 0xadbf34d66a057700 0x21
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6498)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6506
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6507
+canary => 0x956b9e3251fc5500
+[*] Stopped process '/usr/bin/gdb' (pid 6507)
+MATCH : 127 0x956b9e3251fc5500 0x7ffd1950f000
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6506)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6514
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6515
+canary => 0xba50eeab33accc00
+[*] Stopped process '/usr/bin/gdb' (pid 6515)
+MATCH : 128 0xba50eeab33accc00 0x10
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6514)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6522
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6523
+canary => 0xfddf2d7a2d839c00
+[*] Stopped process '/usr/bin/gdb' (pid 6523)
+MATCH : 129 0xfddf2d7a2d839c00 0x178bfbff
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6522)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6530
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6531
+canary => 0x22b5db3997d15900
+[*] Stopped process '/usr/bin/gdb' (pid 6531)
+MATCH : 130 0x22b5db3997d15900 0x6
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6530)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6539
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6540
+canary => 0xda48c2a44faab200
+[*] Stopped process '/usr/bin/gdb' (pid 6540)
+MATCH : 131 0xda48c2a44faab200 0x1000
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6539)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6547
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6548
+canary => 0x7baf420da51a0600
+[*] Stopped process '/usr/bin/gdb' (pid 6548)
+MATCH : 132 0x7baf420da51a0600 0x11
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6547)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6555
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6556
+canary => 0x1d611847166b6a00
+[*] Stopped process '/usr/bin/gdb' (pid 6556)
+MATCH : 133 0x1d611847166b6a00 0x64
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6555)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6563
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6564
+canary => 0x9788040e462aa200
+[*] Stopped process '/usr/bin/gdb' (pid 6564)
+MATCH : 134 0x9788040e462aa200 0x3
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6563)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6571
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6572
+canary => 0x3e2dc1bdae387300
+[*] Stopped process '/usr/bin/gdb' (pid 6572)
+MATCH : 135 0x3e2dc1bdae387300 0x55e63c113040
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6571)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6580
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6581
+canary => 0xcd07d47201ae8700
+[*] Stopped process '/usr/bin/gdb' (pid 6581)
+MATCH : 136 0xcd07d47201ae8700 0x4
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6580)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6588
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6589
+canary => 0xca90cd1d69ccae00
+[*] Stopped process '/usr/bin/gdb' (pid 6589)
+MATCH : 137 0xca90cd1d69ccae00 0x38
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6588)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6596
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6597
+canary => 0x3671d6d923a55400
+[*] Stopped process '/usr/bin/gdb' (pid 6597)
+MATCH : 138 0x3671d6d923a55400 0x5
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6596)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6604
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6605
+canary => 0xcfe0f7ed51fdff00
+[*] Stopped process '/usr/bin/gdb' (pid 6605)
+MATCH : 139 0xcfe0f7ed51fdff00 0xd
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6604)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6612
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6613
+canary => 0x9e0790d39538bf00
+[*] Stopped process '/usr/bin/gdb' (pid 6613)
+MATCH : 140 0x9e0790d39538bf00 0x7
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6612)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6620
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6621
+canary => 0xdbe11732fa26d800
+[*] Stopped process '/usr/bin/gdb' (pid 6621)
+MATCH : 141 0xdbe11732fa26d800 0x7f657cd8c000
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6620)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6629
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6630
+canary => 0xac5618a381bfe00
+[*] Stopped process '/usr/bin/gdb' (pid 6630)
+MATCH : 142 0xac5618a381bfe00 0x8
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6629)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6637
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6638
+canary => 0xdd7f19b158e9be00
+[*] Stopped process '/usr/bin/gdb' (pid 6638)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6637)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6645
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6646
+canary => 0x8ba0ba1c4504d300
+[*] Stopped process '/usr/bin/gdb' (pid 6646)
+MATCH : 144 0x8ba0ba1c4504d300 0x9
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6645)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6653
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6654
+canary => 0x31fa098ef1b5cd00
+[*] Stopped process '/usr/bin/gdb' (pid 6654)
+MATCH : 145 0x31fa098ef1b5cd00 0x559ea16d4120
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6653)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6661
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6662
+canary => 0x556b77a11c91c00
+[*] Stopped process '/usr/bin/gdb' (pid 6662)
+MATCH : 146 0x556b77a11c91c00 0xb
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6661)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6669
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6670
+canary => 0x61f8c83a08e8b000
+[*] Stopped process '/usr/bin/gdb' (pid 6670)
+MATCH : 147 0x61f8c83a08e8b000 0x3e8
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6669)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6678
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6679
+canary => 0x3925c13c576d1a00
+[*] Stopped process '/usr/bin/gdb' (pid 6679)
+MATCH : 148 0x3925c13c576d1a00 0xc
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6678)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6686
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6687
+canary => 0xc8283f5d5bb92200
+[*] Stopped process '/usr/bin/gdb' (pid 6687)
+MATCH : 149 0xc8283f5d5bb92200 0x3e8
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6686)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6694
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6695
+canary => 0x52fd8e468fab3a00
+[*] Stopped process '/usr/bin/gdb' (pid 6695)
+MATCH : 150 0x52fd8e468fab3a00 0xd
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6694)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6702
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6703
+canary => 0xb058be9ba6df8600
+[*] Stopped process '/usr/bin/gdb' (pid 6703)
+MATCH : 151 0xb058be9ba6df8600 0x3e8
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6702)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6710
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6711
+canary => 0x85480fc129568300
+[*] Stopped process '/usr/bin/gdb' (pid 6711)
+MATCH : 152 0x85480fc129568300 0xe
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6710)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6718
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6719
+canary => 0x569b6461b6b4e600
+[*] Stopped process '/usr/bin/gdb' (pid 6719)
+MATCH : 153 0x569b6461b6b4e600 0x3e8
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6718)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6727
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6728
+canary => 0x2f7990e2c3a36c00
+[*] Stopped process '/usr/bin/gdb' (pid 6728)
+MATCH : 154 0x2f7990e2c3a36c00 0x17
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6727)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6735
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6736
+canary => 0x1ce05a373adc7600
+[*] Stopped process '/usr/bin/gdb' (pid 6736)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6735)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6745
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6746
+canary => 0x52e09cb2c2932e00
+[*] Stopped process '/usr/bin/gdb' (pid 6746)
+MATCH : 156 0x52e09cb2c2932e00 0x19
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6745)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6753
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6754
+canary => 0x61c161a174fdb600
+[*] Stopped process '/usr/bin/gdb' (pid 6754)
+MATCH : 157 0x61c161a174fdb600 0x7ffddd622739
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6753)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6761
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6762
+canary => 0x746bd01874be1900
+[*] Stopped process '/usr/bin/gdb' (pid 6762)
+MATCH : 158 0x746bd01874be1900 0x1a
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6761)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6770
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6771
+canary => 0x46babb6211123e00
+[*] Stopped process '/usr/bin/gdb' (pid 6771)
+MATCH : 159 0x46babb6211123e00 0x2
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6770)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6778
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6779
+canary => 0xf3cfaa7edb20d800
+[*] Stopped process '/usr/bin/gdb' (pid 6779)
+MATCH : 160 0xf3cfaa7edb20d800 0x1f
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6778)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6786
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6787
+canary => 0xad4b90589ca88e00
+[*] Stopped process '/usr/bin/gdb' (pid 6787)
+MATCH : 161 0xad4b90589ca88e00 0x7ffcdbd60fc3
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6786)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6794
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6795
+canary => 0x624552df858ab700
+[*] Stopped process '/usr/bin/gdb' (pid 6795)
+MATCH : 162 0x624552df858ab700 0xf
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6794)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6802
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6803
+canary => 0x13a29d29aacd6600
+[*] Stopped process '/usr/bin/gdb' (pid 6803)
+MATCH : 163 0x13a29d29aacd6600 0x7ffd10c3f949
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6802)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6810
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6811
+canary => 0xc235053def84ae00
+[*] Stopped process '/usr/bin/gdb' (pid 6811)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6810)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6819
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6820
+canary => 0xc4d5308ea0d65400
+[*] Stopped process '/usr/bin/gdb' (pid 6820)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6819)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6827
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6828
+canary => 0x7c411e33b054a600
+[*] Stopped process '/usr/bin/gdb' (pid 6828)
+MATCH : 166 0x7c411e33b054a600 0x411e33b054a66b00
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6827)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6835
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6836
+canary => 0xa2f09760009a9e00
+[*] Stopped process '/usr/bin/gdb' (pid 6836)
+MATCH : 167 0xa2f09760009a9e00 0xd47688c4e01329a2
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6835)
+[x] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall'
+[+] Starting local process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall': pid 6845
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 6846
+[*] Stopped process '/usr/bin/gdb' (pid 6846)
+[*] Stopped process '/home/init0/share/bkup/CTF/foobar22/pwn/warmup/chall' (pid 6845)

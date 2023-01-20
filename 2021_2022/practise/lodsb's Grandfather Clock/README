@@ -1,0 +1,5 @@
+Classic reverse engineering CTF. Your goal is to find the flag hidden inside `grandfather_clock`.
+
+File `sources.tar.gz.enc` contains tar archive with this challenge's source code encrypted with `openssl enc -aes-256-ofb -pbkdf2 -k <flag> -e -in sources.tar.gz -out sources.tar.gz.enc` where <flag> is the flag hidden inside `grandfather_clock`.
+
+Good luck!

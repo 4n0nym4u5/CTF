@@ -1,0 +1,253 @@
+1644058595451	geckodriver	INFO	Listening on 127.0.0.1:34849
+1644058595952	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37557" "-no-remote" "-profile" "/tmp/rust_mozprofileSR1HFb"
+1644058597001	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSR1HFb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:37557/devtools/browser/749fce9a-3582-43d0-8f04-16d5d504abb0
+1644058600817	Marionette	INFO	Listening on port 43587
+1644058600943	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644058602521	Marionette	INFO	Stopped listening on port 43587
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644058614663	geckodriver	INFO	Listening on 127.0.0.1:43509
+1644058615166	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55683" "-no-remote" "-profile" "/tmp/rust_mozprofileOaIzio"
+1644058616092	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOaIzio/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55683/devtools/browser/d0c02efe-9fbb-46bd-97d5-87b1cfbd9eeb
+1644058619541	Marionette	INFO	Listening on port 45003
+1644058619641	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644058634343	Marionette	INFO	Stopped listening on port 45003
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644058654150	geckodriver	INFO	Listening on 127.0.0.1:39933
+1644058654651	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38919" "-no-remote" "-profile" "/tmp/rust_mozprofilefrxvVr"
+1644058655604	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefrxvVr/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38919/devtools/browser/ae693b3e-78b8-4490-8187-0f110bf17ce4
+1644058659605	Marionette	INFO	Listening on port 46775
+1644058659741	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://flagle.mc.ax"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644058683909	Marionette	INFO	Stopped listening on port 46775
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644058739525	geckodriver	INFO	Listening on 127.0.0.1:40661
+1644058740028	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42749" "-no-remote" "-profile" "/tmp/rust_mozprofilexNRaxZ"
+1644058740974	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexNRaxZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42749/devtools/browser/e6314cb1-4ba6-4379-bbd4-d8d370029f63
+1644058744507	Marionette	INFO	Listening on port 33587
+1644058744593	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644058768943	geckodriver	INFO	Listening on 127.0.0.1:42447
+1644058769447	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51667" "-no-remote" "-profile" "/tmp/rust_mozprofileHQ7hld"
+1644058770443	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHQ7hld/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51667/devtools/browser/bceca0c1-6028-40fd-a60b-c5c62cd8e2f9
+1644058773920	Marionette	INFO	Listening on port 38119
+1644058774019	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://flagle.mc.ax"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644058788091	Marionette	INFO	Stopped listening on port 38119
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644058842472	geckodriver	INFO	Listening on 127.0.0.1:58569
+1644058842976	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40221" "-no-remote" "-profile" "/tmp/rust_mozprofileLTGjJf"
+1644058844002	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLTGjJf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40221/devtools/browser/a2551835-0afc-40b2-8051-3cb4a2f856ad
+1644058847502	Marionette	INFO	Listening on port 34841
+1644058847559	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://flagle.mc.ax"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://flagle.mc.ax"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644058873833	Marionette	INFO	Stopped listening on port 34841
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644058888972	geckodriver	INFO	Listening on 127.0.0.1:39741
+1644058889476	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45779" "-no-remote" "-profile" "/tmp/rust_mozprofilejp6sY6"
+1644058890372	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejp6sY6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45779/devtools/browser/4f4b5ffd-6c4e-4ca6-8ed0-8a0402cc5d23
+1644058893819	Marionette	INFO	Listening on port 37171
+1644058893944	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644058898902	Marionette	INFO	Stopped listening on port 37171
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644058908155	geckodriver	INFO	Listening on 127.0.0.1:51405
+1644058908656	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51555" "-no-remote" "-profile" "/tmp/rust_mozprofileeCl3dZ"
+1644058909646	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeCl3dZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51555/devtools/browser/e9f78f7c-e3b6-4107-9cb6-9c54c381ae1c
+1644058913010	Marionette	INFO	Listening on port 41195
+1644058913126	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://flagle.mc.ax"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644058953133	Marionette	INFO	Stopped listening on port 41195
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644058963847	geckodriver	INFO	Listening on 127.0.0.1:41657
+1644058964357	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42457" "-no-remote" "-profile" "/tmp/rust_mozprofileQ4BjhA"
+1644058965302	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQ4BjhA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42457/devtools/browser/4d19490d-fc85-4065-b67f-36857d1711f1
+1644058969017	Marionette	INFO	Listening on port 39109
+1644058969141	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644058973816	Marionette	INFO	Stopped listening on port 39109
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644058987392	geckodriver	INFO	Listening on 127.0.0.1:40079
+1644058987895	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59195" "-no-remote" "-profile" "/tmp/rust_mozprofileCXWwfl"
+1644058988807	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCXWwfl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59195/devtools/browser/d3ddaf09-5ac8-4574-aa7f-00235d0fc056
+1644058992313	Marionette	INFO	Listening on port 41927
+1644058992393	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644058997100	Marionette	INFO	Stopped listening on port 41927
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644059023057	geckodriver	INFO	Listening on 127.0.0.1:44815
+1644059023559	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43869" "-no-remote" "-profile" "/tmp/rust_mozprofileKLGPTQ"
+1644059025794	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKLGPTQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43869/devtools/browser/79d534a9-29b3-4a70-b509-1f67df8f82a2
+1644059031606	Marionette	INFO	Listening on port 45355
+1644059031687	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://flagle.mc.ax"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://flagle.mc.ax"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://flagle.mc.ax"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644059062086	Marionette	INFO	Stopped listening on port 45355
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644059073265	geckodriver	INFO	Listening on 127.0.0.1:58813
+1644059073768	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38053" "-no-remote" "-profile" "/tmp/rust_mozprofileZDQ7Jl"
+1644059074696	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZDQ7Jl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38053/devtools/browser/ba389636-d8e2-4a29-97e3-646fd16e37fd
+1644059078166	Marionette	INFO	Listening on port 34209
+1644059078220	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644059087885	Marionette	INFO	Stopped listening on port 34209
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644059161936	geckodriver	INFO	Listening on 127.0.0.1:38933
+1644059162440	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42281" "-no-remote" "-profile" "/tmp/rust_mozprofileXVged9"
+1644059163442	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXVged9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42281/devtools/browser/9d68e5fd-b42b-4bba-b309-857ffb7027eb
+1644059166902	Marionette	INFO	Listening on port 35727
+1644059167004	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644059172485	Marionette	INFO	Stopped listening on port 35727
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644059372617	geckodriver	INFO	Listening on 127.0.0.1:53863
+1644059373120	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50503" "-no-remote" "-profile" "/tmp/rust_mozprofileQj9Hro"
+1644059374013	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQj9Hro/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50503/devtools/browser/6faec463-d14f-448f-8997-e2a2c090885a
+1644059377677	Marionette	INFO	Listening on port 44087
+1644059377845	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644059393811	Marionette	INFO	Stopped listening on port 44087
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644060656936	geckodriver	INFO	Listening on 127.0.0.1:36551
+1644060657441	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42601" "-no-remote" "-profile" "/tmp/rust_mozprofileUbdqjh"
+1644060658189	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUbdqjh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42601/devtools/browser/4c4c2994-8247-431e-9766-632b2a64bd36
+1644060661048	Marionette	INFO	Listening on port 44187
+1644060661115	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1644060708000	geckodriver	INFO	Listening on 127.0.0.1:50861
+1644060708505	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34797" "-no-remote" "-profile" "/tmp/rust_mozprofileIRAsOn"
+1644060709321	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIRAsOn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34797/devtools/browser/cd81322c-3135-430f-9dcf-60f8951061f7
+1644060713139	Marionette	INFO	Listening on port 40009
+1644060713202	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+JavaScript error: https://flagle.mc.ax/flag-checker.js, line 1489: RuntimeError: Aborted(Assertion failed: native function `stackSave` called before runtime initialization)
+1644060736377	Marionette	INFO	Stopped listening on port 40009
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1644060736919	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+[2022-02-05T11:32:16Z ERROR glean] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1644060750203	geckodriver	INFO	Listening on 127.0.0.1:33357
+1644060750710	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59227" "-no-remote" "-profile" "/tmp/rust_mozprofilefAs6fj"
+1644060751645	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefAs6fj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59227/devtools/browser/63c03f12-2403-44e1-ac87-4f09aaafb3e8
+1644060754899	Marionette	INFO	Listening on port 36773
+1644060755246	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644060769493	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:239:19
+TimedPromise@chrome://remote/content/marionette/sync.js:224:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1644060780538	Marionette	INFO	Stopped listening on port 36773
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1644060781511	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1644060797356	geckodriver	INFO	Listening on 127.0.0.1:45311
+1644060797860	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47537" "-no-remote" "-profile" "/tmp/rust_mozprofileEGPAzF"
+1644060798800	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEGPAzF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47537/devtools/browser/d3ad0935-429f-43d7-a315-dc680d3d70e0
+1644060802313	Marionette	INFO	Listening on port 35337
+1644060802469	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644060804864	Marionette	INFO	Stopped listening on port 35337
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1644060810305	Marionette	INFO	Stopped listening on port 33587
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644060817232	geckodriver	INFO	Listening on 127.0.0.1:43377
+1644060817736	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60471" "-no-remote" "-profile" "/tmp/rust_mozprofiley3Ukqa"
+1644060818727	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiley3Ukqa/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60471/devtools/browser/590856c5-ee67-46c0-ad53-3abcff9e78f9
+1644060822318	Marionette	INFO	Listening on port 35271
+1644060822413	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://flagle.mc.ax/script.js, line 1: TypeError: Window.fetch: Argument 2 can't be converted to a dictionary.
+
+(firefox:130017): GLib-GObject-CRITICAL **: 17:03:58.874: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:130089): dconf-WARNING **: 17:03:58.947: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1644060839003	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:239:19
+TimedPromise@chrome://remote/content/marionette/sync.js:224:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1644060880431	Marionette	INFO	Stopped listening on port 35271
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644060920004	geckodriver	INFO	Listening on 127.0.0.1:45033
+1644060920507	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43491" "-no-remote" "-profile" "/tmp/rust_mozprofileaeJ4D8"
+1644060921366	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaeJ4D8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43491/devtools/browser/ee9e8991-a43b-4ece-93a9-ca00de9ecabe
+1644060924656	Marionette	INFO	Listening on port 41781
+1644060924792	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://flagle.mc.ax/script.js, line 1: TypeError: Window.fetch: Argument 2 can't be converted to a dictionary.
+
+(firefox:130231): GLib-GObject-CRITICAL **: 17:05:40.604: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:130303): dconf-WARNING **: 17:05:40.637: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1644060940792	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:239:19
+TimedPromise@chrome://remote/content/marionette/sync.js:224:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1644060984699	Marionette	INFO	Stopped listening on port 41781
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

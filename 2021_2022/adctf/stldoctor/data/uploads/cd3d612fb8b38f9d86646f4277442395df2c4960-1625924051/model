@@ -1,0 +1,30 @@
+solid ENOCAAAAAAAAAA/AAAAIwAAANsjsyP5j/t96RJZaAXtRRcFuA9C
+	 		facet normal -0.42 0.77 0.48
+	 			 		outer loop
+	 			 			 		vertex 0.78 0.22 0.95
+	 			 			 		vertex 0.88 0.65 0.35
+	 			 			 		vertex 0.03 0.02 0.62
+	 			 		endloop
+	 		endfacet
+	 		facet normal 0.25 0.26 -0.93
+	 			 		outer loop
+	 			 			 		vertex 0.10 0.23 0.55
+	 			 			 		vertex 0.22 0.85 0.75
+	 			 			 		vertex 0.98 0.76 0.93
+	 			 		endloop
+	 		endfacet
+	 		facet normal -0.42 -0.20 -0.89
+	 			 		outer loop
+	 			 			 		vertex 0.66 0.63 0.56
+	 			 			 		vertex 0.18 0.02 0.93
+	 			 			 		vertex 0.11 0.40 0.87
+	 			 		endloop
+	 		endfacet
+	 		facet normal -0.41 -0.18 -0.90
+	 			 		outer loop
+	 			 			 		vertex 0.94 0.42 0.60
+	 			 			 		vertex 0.22 0.28 0.95
+	 			 			 		vertex 0.89 0.58 0.58
+	 			 		endloop
+	 		endfacet
+endsolid ENOCAAAAAAAAAA/AAAAIwAAANsjsyP5j/t96RJZaAXtRRcFuA9C

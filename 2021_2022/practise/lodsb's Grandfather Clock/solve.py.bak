@@ -1,0 +1,96 @@
+#!/usr/bin/python3
+
+import monkeyhex
+import pwn
+
+def rot(string, n, conv_little=True):
+	if conv_little:
+		string=(pwn.p64(string))
+	dec=""
+	for i in string:
+		dec+=chr(i-n)
+	return dec
+
+def dec_usage_enc_text():
+	return (rot(usage_enc_text[0], 12) + rot(usage_enc_text[1], 12))
+
+def even_enc(a1):
+	assert ( len(a1) & 1 ) == 0
+	len_of_inp=len(a1)
+	i=0
+	inp_len_min_1 = len_of_inp-1
+	v3=-2
+	idxs=[]
+	v7=list(a1)
+	while ( i < len_of_inp):
+		idxs.append(inp_len_min_1)
+		v7[i]=ord(a1[inp_len_min_1])-32
+		# print(chr(v7[i]))
+		inp_len_min_1 += v3
+		if ( inp_len_min_1 == -1):
+			# print(f"in {inp_len_min_1}")
+			inp_len_min_1 = 0
+			v3 = -v3
+		# print(f"out {inp_len_min_1}")
+		i+=1
+	try:
+		v7=''.join(str(chr(e)) for e in v7)
+	except:
+		pass
+	return v7
+
+def even_enc_brute(a1):
+	j=0
+	assert ( len(a1) & 1 ) == 0
+	len_of_inp=len(a1)
+	i=0
+	inp_len_min_1 = len_of_inp-1
+	v3=-2
+	idxs=[]
+	v7=list(a1)
+	while ( i < len_of_inp):
+		idxs.append(inp_len_min_1)
+		v7[i]=(a1[inp_len_min_1])+32
+		# print(chr(v7[i]))
+		inp_len_min_1 += v3
+		if ( inp_len_min_1 == -1):
+			# print(f"in {inp_len_min_1}")
+			inp_len_min_1 = 0
+			v3 = -v3
+		# print(f"out {inp_len_min_1}")
+		i+=1
+	try:
+		v7=''.join(str(chr(e)) for e in v7)
+	except:
+		pass
+	return v7, idxs
+
+
+
+usage_enc_text = [0x312c4671736d7f61, 0x4a736d7872482c7f ] # Usage: %s <flag>
+enc_bytes_even = [0x5D, 0x10, 0x14, 0x4C, 0x43, 0x10, 0x43, 0x4E, 0x4D, 0x14, 0x3F, 0x47, 0x4C, 0x34, 0x23, 0x26, 0x41, 0x5B, 0x28, 0x52, 0x10, 0x11, 0x3F, 0x53, 0x11, 0x4C, 0x54, 0x52]
+idx_even = [27, 25, 23, 21, 19, 17, 15, 13, 11, 9, 7, 5, 3, 1, 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26]
+
+# a1=''.join(str(chr(e)) for e in enc_bytes_even)
+
+# usage_dec_text = dec_usage_enc_text()
+# print(even_enc(a1))
+# print(even_enc("\x19" + "T" + "\x19"*26))
+# print(enc_bytes_even)
+
+dec,idxs = (even_enc_brute(b"]\20\024LC\020CNM\024?GL4#&A[(R\020\021?S\021LTR"))
+print(dec.upper(), idxs)
+print("A"*len(dec))
+
+
+"""
+usage encrypted text 0x312c4671736d7f61 0x4a736d7872482c7f
+Usage: %s <flag>
+
+first enc even bytes len shud be 28
+
+rls1r{FTg4n0l0}4ccm_lCaH0_1t
+ls1rr{FTg40l0}4ccm_lCnaH0_1t
+
+
+"""

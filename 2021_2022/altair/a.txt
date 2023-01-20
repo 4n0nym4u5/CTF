@@ -1,0 +1,227 @@
+[*] '/home/init0/share/bkup/CTF/altair/timeserver'
+    Arch:     i386-32-little
+    RELRO:    Partial RELRO
+    Stack:    Canary found
+    NX:       NX enabled
+    PIE:      No PIE (0x8048000)
+[*] '/lib/x86_64-linux-gnu/libc.so.6'
+    Arch:     amd64-64-little
+    RELRO:    Partial RELRO
+    Stack:    Canary found
+    NX:       NX enabled
+    PIE:      PIE enabled
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8091
+COOKIE 0xdeadbeef 0
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8092
+canary => 0x603cf600
+[*] Stopped process '/usr/bin/gdb' (pid 8092)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8091)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8100
+COOKIE 0xdeadbeef 1
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8101
+canary => 0xcba26100
+[*] Stopped process '/usr/bin/gdb' (pid 8101)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8100)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8110
+COOKIE 0xdeadbeef 2
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8111
+canary => 0xdde3a700
+[*] Stopped process '/usr/bin/gdb' (pid 8111)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8110)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8118
+COOKIE 0xdeadbeef 3
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8119
+canary => 0xf4cfbc00
+[*] Stopped process '/usr/bin/gdb' (pid 8119)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8118)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8135
+COOKIE 0xdeadbeef 4
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8136
+canary => 0x325deb00
+[*] Stopped process '/usr/bin/gdb' (pid 8136)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8135)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8147
+COOKIE 0xdeadbeef 5
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8148
+canary => 0xa79ec900
+[*] Stopped process '/usr/bin/gdb' (pid 8148)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8147)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8158
+COOKIE 0xdeadbeef 6
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8159
+canary => 0x5f598500
+[*] Stopped process '/usr/bin/gdb' (pid 8159)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8158)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8168
+COOKIE 0xdeadbeef 7
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8169
+canary => 0x85a1f000
+[*] Stopped process '/usr/bin/gdb' (pid 8169)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8168)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8176
+COOKIE 0xdeadbeef 8
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8177
+canary => 0x8347d300
+[*] Stopped process '/usr/bin/gdb' (pid 8177)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8176)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8184
+COOKIE 0xdeadbeef 9
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8185
+canary => 0xc7c41e00
+[*] Stopped process '/usr/bin/gdb' (pid 8185)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8184)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8193
+COOKIE 0xdeadbeef 10
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8194
+canary => 0x23232000
+[*] Stopped process '/usr/bin/gdb' (pid 8194)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8193)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8207
+COOKIE 0xdeadbeef 11
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8208
+canary => 0x205b7f00
+[*] Stopped process '/usr/bin/gdb' (pid 8208)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8207)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8225
+COOKIE 0xdeadbeef 12
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8226
+canary => 0xfdcff400
+[*] Stopped process '/usr/bin/gdb' (pid 8226)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8225)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8243
+COOKIE 0xdeadbeef 13
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8244
+canary => 0xc63dea00
+[*] Stopped process '/usr/bin/gdb' (pid 8244)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8243)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8262
+COOKIE 0xdeadbeef 14
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8263
+canary => 0xb0529600
+[*] Stopped process '/usr/bin/gdb' (pid 8263)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8262)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8280
+COOKIE 0x7e 15
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8281
+canary => 0x2d625100
+[*] Stopped process '/usr/bin/gdb' (pid 8281)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8280)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8298
+COOKIE 0xdeadbeef 16
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8299
+canary => 0x92eaa900
+[*] Stopped process '/usr/bin/gdb' (pid 8299)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8298)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8316
+COOKIE 0xdeadbeef 17
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8317
+canary => 0x4f041000
+[*] Stopped process '/usr/bin/gdb' (pid 8317)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8316)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8335
+COOKIE 0xdeadbeef 18
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8336
+canary => 0x496bdf00
+[*] Stopped process '/usr/bin/gdb' (pid 8336)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8335)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8353
+COOKIE 0xdeadbeef 19
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8354
+canary => 0x1feb6200
+[*] Stopped process '/usr/bin/gdb' (pid 8354)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8353)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8371
+COOKIE 0x81101c0 20
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8372
+canary => 0x9585dc00
+[*] Stopped process '/usr/bin/gdb' (pid 8372)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8371)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8390
+COOKIE 0xdeadbeef 21
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8391
+canary => 0x9ce74200
+[*] Stopped process '/usr/bin/gdb' (pid 8391)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8390)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8408
+COOKIE 0xff855788 22
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8409
+canary => 0xc710c700
+[*] Stopped process '/usr/bin/gdb' (pid 8409)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8408)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8426
+COOKIE 0xdeadbeef 23
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8427
+canary => 0x7917d100
+[*] Stopped process '/usr/bin/gdb' (pid 8427)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8426)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8444
+COOKIE 0xdeadbeef 24
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8445
+canary => 0xb47e6400
+[*] Stopped process '/usr/bin/gdb' (pid 8445)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8444)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8464
+COOKIE 0xa 25
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8465
+canary => 0xa002be00
+[*] Stopped process '/usr/bin/gdb' (pid 8465)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8464)
+[x] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver'
+[+] Starting local process '/home/init0/share/bkup/CTF/altair/timeserver': pid 8482
+COOKIE 0xdeadbeef 26
+[x] Starting local process '/usr/bin/gdb'
+[+] Starting local process '/usr/bin/gdb': pid 8483
+[*] Stopped process '/usr/bin/gdb' (pid 8483)
+[*] Stopped process '/home/init0/share/bkup/CTF/altair/timeserver' (pid 8482)

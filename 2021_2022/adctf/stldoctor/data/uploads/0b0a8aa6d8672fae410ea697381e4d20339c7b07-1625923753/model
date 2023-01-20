@@ -1,0 +1,184 @@
+solid zyqgpe3m8r7erfdof9k5dpq69eet4uvp5g3
+  	 facet normal -0.72 0.36 -0.59
+  	   	 outer loop
+  	   	   	 vertex 0.65 0.84 0.36
+  	   	   	 vertex 0.82 0.86 0.16
+  	   	   	 vertex 0.57 0.10 0.01
+  	   	 endloop
+  	 endfacet
+  	 facet normal 0.07 0.82 0.56
+  	   	 outer loop
+  	   	   	 vertex 0.19 0.33 0.90
+  	   	   	 vertex 0.93 0.61 0.39
+  	   	   	 vertex 0.04 0.47 0.72
+  	   	 endloop
+  	 endfacet
+  	 facet normal -1.00 -0.03 0.08
+  	   	 outer loop
+  	   	   	 vertex 0.30 0.66 0.35
+  	   	   	 vertex 0.33 0.41 0.62
+  	   	   	 vertex 0.33 0.87 0.83
+  	   	 endloop
+  	 endfacet
+  	 facet normal -0.14 -0.84 -0.52
+  	   	 outer loop
+  	   	   	 vertex 0.92 0.46 0.62
+  	   	   	 vertex 0.10 0.52 0.75
+  	   	   	 vertex 0.47 0.81 0.17
+  	   	 endloop
+  	 endfacet
+  	 facet normal -0.40 0.18 0.90
+  	   	 outer loop
+  	   	   	 vertex 0.70 0.73 0.80
+  	   	   	 vertex 0.47 0.04 0.84
+  	   	   	 vertex 0.91 0.89 0.87
+  	   	 endloop
+  	 endfacet
+  	 facet normal -0.69 -0.72 -0.13
+  	   	 outer loop
+  	   	   	 vertex 0.33 0.69 0.23
+  	   	   	 vertex 0.61 0.30 0.95
+  	   	   	 vertex 0.26 0.67 0.71
+  	   	 endloop
+  	 endfacet
+  	 facet normal -0.41 -0.75 -0.52
+  	   	 outer loop
+  	   	   	 vertex 0.33 0.62 0.16
+  	   	   	 vertex 0.77 0.45 0.06
+  	   	   	 vertex 0.38 0.08 0.91
+  	   	 endloop
+  	 endfacet
+  	 facet normal -0.43 0.82 -0.37
+  	   	 outer loop
+  	   	   	 vertex 0.88 0.44 0.11
+  	   	   	 vertex 0.15 0.37 0.79
+  	   	   	 vertex 0.96 0.86 0.94
+  	   	 endloop
+  	 endfacet
+  	 facet normal -0.36 -0.68 0.64
+  	   	 outer loop
+  	   	   	 vertex 0.13 0.43 0.23
+  	   	   	 vertex 0.97 0.20 0.44
+  	   	   	 vertex 0.18 0.84 0.69
+  	   	 endloop
+  	 endfacet
+  	 facet normal 0.16 -0.96 0.23
+  	   	 outer loop
+  	   	   	 vertex 0.94 0.78 0.83
+  	   	   	 vertex 0.13 0.63 0.77
+  	   	   	 vertex 0.78 0.60 0.19
+  	   	 endloop
+  	 endfacet
+  	 facet normal -0.54 -0.46 0.71
+  	   	 outer loop
+  	   	   	 vertex 0.15 0.95 0.32
+  	   	   	 vertex 0.59 0.14 0.13
+  	   	   	 vertex 0.67 0.76 0.59
+  	   	 endloop
+  	 endfacet
+  	 facet normal 0.95 0.14 -0.28
+  	   	 outer loop
+  	   	   	 vertex 0.85 0.45 0.36
+  	   	   	 vertex 0.84 0.16 0.18
+  	   	   	 vertex 0.81 0.20 0.12
+  	   	 endloop
+  	 endfacet
+  	 facet normal -0.91 0.37 0.17
+  	   	 outer loop
+  	   	   	 vertex 0.12 0.10 0.75
+  	   	   	 vertex 0.44 0.95 0.59
+  	   	   	 vertex 0.40 0.92 0.44
+  	   	 endloop
+  	 endfacet
+  	 facet normal -0.67 0.22 -0.71
+  	   	 outer loop
+  	   	   	 vertex 0.79 0.91 0.60
+  	   	   	 vertex 0.60 0.69 0.71
+  	   	   	 vertex 0.29 0.67 0.99
+  	   	 endloop
+  	 endfacet
+  	 facet normal 0.60 -0.58 -0.55
+  	   	 outer loop
+  	   	   	 vertex 0.38 0.69 0.22
+  	   	   	 vertex 0.52 0.19 0.89
+  	   	   	 vertex 0.24 0.44 0.32
+  	   	 endloop
+  	 endfacet
+  	 facet normal 0.46 -0.30 0.83
+  	   	 outer loop
+  	   	   	 vertex 0.09 0.85 0.98
+  	   	   	 vertex 0.58 0.39 0.54
+  	   	   	 vertex 0.76 0.88 0.62
+  	   	 endloop
+  	 endfacet
+  	 facet normal 0.67 0.36 0.65
+  	   	 outer loop
+  	   	   	 vertex 0.41 0.25 0.79
+  	   	   	 vertex 0.81 0.47 0.25
+  	   	   	 vertex 0.52 0.71 0.42
+  	   	 endloop
+  	 endfacet
+  	 facet normal -0.69 -0.06 0.72
+  	   	 outer loop
+  	   	   	 vertex 0.55 0.49 0.59
+  	   	   	 vertex 0.21 0.97 0.31
+  	   	   	 vertex 0.62 0.21 0.63
+  	   	 endloop
+  	 endfacet
+  	 facet normal -0.83 0.55 -0.13
+  	   	 outer loop
+  	   	   	 vertex 0.48 0.32 0.16
+  	   	   	 vertex 0.28 0.08 0.42
+  	   	   	 vertex 0.51 0.55 0.93
+  	   	 endloop
+  	 endfacet
+  	 facet normal 0.00 -0.80 -0.59
+  	   	 outer loop
+  	   	   	 vertex 0.25 0.43 0.90
+  	   	   	 vertex 0.14 0.83 0.36
+  	   	   	 vertex 0.71 0.87 0.31
+  	   	 endloop
+  	 endfacet
+  	 facet normal -0.50 -0.86 0.10
+  	   	 outer loop
+  	   	   	 vertex 0.93 0.46 0.90
+  	   	   	 vertex 0.04 0.99 0.91
+  	   	   	 vertex 0.33 0.76 0.39
+  	   	 endloop
+  	 endfacet
+  	 facet normal -0.67 0.73 0.10
+  	   	 outer loop
+  	   	   	 vertex 0.98 0.74 0.86
+  	   	   	 vertex 0.44 0.36 0.04
+  	   	   	 vertex 0.89 0.65 0.88
+  	   	 endloop
+  	 endfacet
+  	 facet normal 0.31 0.10 0.94
+  	   	 outer loop
+  	   	   	 vertex 0.82 0.52 0.66
+  	   	   	 vertex 0.54 0.98 0.71
+  	   	   	 vertex 0.10 0.53 0.90
+  	   	 endloop
+  	 endfacet
+  	 facet normal 0.28 -0.79 -0.54
+  	   	 outer loop
+  	   	   	 vertex 0.01 0.43 0.23
+  	   	   	 vertex 0.96 0.45 0.69
+  	   	   	 vertex 0.03 0.03 0.83
+  	   	 endloop
+  	 endfacet
+  	 facet normal -0.41 -0.48 -0.78
+  	   	 outer loop
+  	   	   	 vertex 0.66 0.31 0.56
+  	   	   	 vertex 0.27 0.10 0.89
+  	   	   	 vertex 0.35 0.79 0.43
+  	   	 endloop
+  	 endfacet
+  	 facet normal -0.11 -0.99 -0.04
+  	   	 outer loop
+  	   	   	 vertex 0.56 0.49 0.20
+  	   	   	 vertex 0.50 0.47 0.74
+  	   	   	 vertex 0.38 0.50 0.28
+  	   	 endloop
+  	 endfacet
+endsolid zyqgpe3m8r7erfdof9k5dpq69eet4uvp5g3

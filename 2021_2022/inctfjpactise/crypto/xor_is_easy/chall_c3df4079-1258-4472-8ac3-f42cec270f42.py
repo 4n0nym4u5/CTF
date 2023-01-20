@@ -1,0 +1,37 @@
+#!/usr/bin/env python
+from itertools import cycle
+from time import time
+from hashlib import md5
+# from secret import flag
+import os
+
+key = "\x42\xef\x65\x5d\xd6\xd9\x71\x94\x9d\xd2\x17\x4c\x6a\x71\x51\x74\x11\x26\xd6\xc9\xf4\xd8\x50\x93\x7c\x61\x48\x67\x6b\x5a\xac\x49\x0b\x28\x7a\x63\x26\x8d\xd8\xb2\x3d\x94\xf3\x6f\xa0\xda\x85\x22\x68\x93\xfb\x4c\x37\xd9\xed\x53"
+
+key = "\xa6\x0d\x64\xb9\x34\xd8\x95\x76\x9c\x36\xf5\x4d\x8e\x93\x50\x90\xf3\x27\x32\x2b\xf5\x3c\xb2\x92\x98\x83\x49\x83\x89\x5b\x48\xab\x0a\xcc\x98\x62\xc2\x6f\xd9\x56\xdf\x95\x17\x8d\xa1\x3e\x67\x23\x8c\x71\xfa\xa8\xd5\xd8\x09\xb1"
+
+def solve(a):
+    for i in range(0xff):
+        known_pt = "\xe5\x66\x19\xc4\x5b\xb1\xfe\x58\xa8\x18\x92\x2d\xe3\xe9\x38\xf4" + chr(i)
+        print(xor(a, known_pt))
+
+
+
+
+def xor(a,b):
+    return ''.join(chr(ord(i)^ord(j)) for i,j in zip(a,cycle(b)))
+
+
+def hashit(x) :
+    return md5(x).hexdigest()
+
+def generatekey(sz) :
+    return os.urandom(sz)
+
+
+def encrypt(m) :
+    return xor("Message : " + m + ":e.o.m" ,generatekey(28))
+
+if __name__ == "__main__" :
+    f = bytes.fromhex("a8036ab73ad69b789238fb43809d5e9efd293c25fb32bc9c968d478d875546a504c2966ccc61d758d19b1983af30692d827ff4a6dbd607bf").decode('latin-1')
+    print(f)
+    solve(f)

@@ -1,0 +1,418 @@
+[*] '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+    Arch:     amd64-64-little
+    RELRO:    Partial RELRO
+    Stack:    No canary found
+    NX:       NX enabled
+    PIE:      No PIE (0x400000)
+[*] '/lib/x86_64-linux-gnu/libc.so.6'
+    Arch:     amd64-64-little
+    RELRO:    Partial RELRO
+    Stack:    Canary found
+    NX:       NX enabled
+    PIE:      PIE enabled
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36786
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36787
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36787)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36788
+success := 0x0 0x1
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36788)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36790
+[*] Process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' stopped with exit code 1 (pid 36790)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36791
+success := 0x0 0x3
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36791)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36793
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36793)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36794
+success := 0x0 0x5
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36794)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36796
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36796)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36797
+success := 0x0 0x7
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36797)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36799
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36799)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36800
+success := 0x0 0x9
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36800)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36802
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36802)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36803
+success := 0x0 0xb
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36803)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36805
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36805)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36806
+success := 0x0 0xd
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36806)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36808
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36808)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36809
+success := 0x0 0xf
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36809)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36811
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36811)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36812
+success := 0x0 0x11
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36812)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36814
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36814)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36815
+success := 0x0 0x13
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36815)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36817
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36817)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36818
+success := 0x0 0x15
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36818)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36820
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36820)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36821
+success := 0x0 0x17
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36821)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36823
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36823)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36824
+success := 0x0 0x19
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36824)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36826
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36826)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36827
+success := 0x0 0x1b
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36827)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36829
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36829)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36830
+success := 0x0 0x1d
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36830)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36832
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36832)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36833
+success := 0x0 0x1f
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36833)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36835
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36835)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36836
+success := 0x0 0x21
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36836)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36838
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36838)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36839
+success := 0x0 0x23
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36839)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36841
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36841)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36842
+success := 0x0 0x25
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36842)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36844
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36844)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36845
+success := 0x0 0x27
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36845)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36847
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36847)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36848
+success := 0x0 0x29
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36848)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36850
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36850)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36851
+success := 0x0 0x2b
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36851)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36853
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36853)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36854
+success := 0x0 0x2d
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36854)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36856
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36856)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36857
+success := 0x0 0x2f
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36857)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36859
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36859)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36860
+success := 0x0 0x31
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36860)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36862
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36862)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36863
+success := 0x0 0x33
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36863)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36865
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36865)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36866
+success := 0x0 0x35
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36866)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36868
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36868)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36869
+success := 0x0 0x37
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36869)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36871
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36871)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36872
+success := 0x0 0x39
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36872)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36874
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36874)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36875
+success := 0x0 0x3b
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36875)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36877
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36877)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36878
+success := 0x0 0x3d
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36878)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36880
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36880)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36881
+success := 0x0 0x3f
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36881)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36883
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36883)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36884
+success := 0x0 0x41
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36884)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36886
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36886)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36887
+success := 0x0 0x43
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36887)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36889
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36889)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36890
+success := 0x0 0x45
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36890)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36892
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36892)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36893
+success := 0x0 0x47
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36893)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36895
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36895)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36896
+success := 0x0 0x49
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36896)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36898
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36898)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36899
+success := 0x0 0x4b
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36899)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36901
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36901)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36902
+success := 0x0 0x4d
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36902)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36904
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36904)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36905
+success := 0x0 0x4f
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36905)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36907
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36907)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36908
+success := 0x0 0x51
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36908)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36910
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36910)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36911
+success := 0x0 0x53
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36911)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36913
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36913)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36914
+success := 0x0 0x55
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36914)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36916
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36916)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36917
+success := 0x0 0x57
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36917)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36919
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36919)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36920
+success := 0x0 0x59
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36920)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36922
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36922)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36923
+success := 0x0 0x5b
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36923)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36925
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36925)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36926
+success := 0x0 0x5d
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36926)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36928
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36928)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36929
+success := 0x0 0x5f
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36929)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36931
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36931)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36932
+success := 0x0 0x61
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36932)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36934
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36934)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36935
+success := 0x0 0x63
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36935)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36937
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36937)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36938
+success := 0x0 0x65
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36938)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36940
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36940)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36941
+success := 0x0 0x67
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36941)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36943
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36943)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36944
+success := 0x0 0x69
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36944)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36946
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36946)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36947
+success := 0x0 0x6b
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36947)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36949
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36949)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36950
+success := 0x0 0x6d
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36950)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36952
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36952)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36953
+success := 0x0 0x6f
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36953)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36955
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36955)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36956
+success := 0x0 0x71
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36956)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36958
+[*] Stopped process '/home/init0/share/bkup/CTF/angstrom22/parity/parity' (pid 36958)
+[x] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity'
+[+] Starting local process '/home/init0/share/bkup/CTF/angstrom22/parity/parity': pid 36959

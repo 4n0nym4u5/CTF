@@ -1,0 +1,424 @@
+
+int LootOrLeave(char *param_1)
+
+{
+  int chk;
+  
+  if (param_1[0x27] * -0xaafa +
+      *param_1 * 0xee0a + param_1[1] * 0x6f4c + param_1[2] * 0x66a3 + param_1[3] * -0x426a +
+      param_1[4] * -0x3b9c + param_1[5] * 0xa0f3 + param_1[6] * 0xb572 + param_1[7] * 0x9859 +
+      param_1[8] * 0x7c72 + param_1[9] * -0x8f70 + param_1[10] * -0xfad6 + param_1[0xb] * 0xec0a +
+      param_1[0xc] * 0xfe48 + param_1[0xd] * -0x51d3 + param_1[0xe] * -0x1d4 +
+      param_1[0xf] * -0x3fa0 + param_1[0x10] * -0x1143 + param_1[0x11] * 0x7cb6 +
+      param_1[0x12] * 0x64bc + param_1[0x13] * 0x8f2 + param_1[0x14] * 0x2034 +
+      param_1[0x15] * 0x9bf4 + param_1[0x16] * -0x7b54 + param_1[0x17] * 0xde18 +
+      param_1[0x18] * 0x5e49 + param_1[0x19] * -0x8a45 + param_1[0x1a] * -0xe1db +
+      param_1[0x1b] * 0x79c6 + param_1[0x1c] * 0xc940 + param_1[0x1d] * 0x690d +
+      param_1[0x1e] * 0x5acb + param_1[0x1f] * -0x7814 + param_1[0x20] * -0x3a1b +
+      param_1[0x21] * -0xd373 + param_1[0x22] * 0x4e37 + param_1[0x23] * 0xdc1 +
+      param_1[0x24] * 0xae9c + param_1[0x25] * 0x443f + param_1[0x26] * 0x1c0e == 0x2821691) {
+    if (param_1[0x27] * -0xcf33 +
+        *param_1 * -0x7ea1 + param_1[1] * -0x1a2d + param_1[2] * -0x2996 + param_1[3] * 0xe349 +
+        param_1[4] * 0xc674 + param_1[5] * -0xad2c + param_1[6] * 0xffe6 + param_1[7] * -0xb717 +
+        param_1[8] * 0x9fe2 + param_1[9] * -0x3901 + param_1[10] * 0x6903 + param_1[0xb] * -0x292b +
+        param_1[0xc] * 0xee05 + param_1[0xd] * -0x1ea7 + param_1[0xe] * 0x1c79 +
+        param_1[0xf] * -0x9c7e + param_1[0x10] * 0x2113 + param_1[0x11] * 0x9410 +
+        param_1[0x12] * -0xfbd0 + param_1[0x13] * -0x9ac1 + param_1[0x14] * -0x7181 +
+        param_1[0x15] * 0x2eba + param_1[0x16] * 0x2303 + param_1[0x17] * 0x71e2 +
+        param_1[0x18] * 0x280a + param_1[0x19] * 0xfa88 + param_1[0x1a] * 0xf02d +
+        param_1[0x1b] * -0x1426 + param_1[0x1c] * 0x3e59 + param_1[0x1d] * 0xa951 +
+        param_1[0x1e] * 0xd3c5 + param_1[0x1f] * 0xcf74 + param_1[0x20] * -0x659d +
+        param_1[0x21] * -0x1ac + param_1[0x22] * -0x9a6d + param_1[0x23] * -0xdea0 +
+        param_1[0x24] * -0x21aa + param_1[0x25] * -0x7e31 + param_1[0x26] * -0x8377 == 0x260b6d) {
+      if (param_1[0x27] * -0xf9a8 +
+          *param_1 * 0xd9cf + param_1[1] * -0x5e58 + param_1[2] * 0x4091 + param_1[3] * 0xcc99 +
+          param_1[4] * 0xb95 + param_1[5] * 0x7634 + param_1[6] * 0x409f + param_1[7] * 0x8200 +
+          param_1[8] * 0xedb + param_1[9] * -0x8cef + param_1[10] * 0x27d2 + param_1[0xb] * -0x5274
+          + param_1[0xc] * 0xe847 + param_1[0xd] * -0xf961 + param_1[0xe] * -0xfe55 +
+          param_1[0xf] * -0xd0c + param_1[0x10] * 0x643b + param_1[0x11] * -0xb3f2 +
+          param_1[0x12] * 0x6cf8 + param_1[0x13] * -0xf1a8 + param_1[0x14] * 0x2334 +
+          param_1[0x15] * -0x8645 + param_1[0x16] * 0xea35 + param_1[0x17] * 0x913c +
+          param_1[0x18] * 0xb4d6 + param_1[0x19] * -0xbae2 + param_1[0x1a] * 0xa3f6 +
+          param_1[0x1b] * 0xf06c + param_1[0x1c] * -0x5a75 + param_1[0x1d] * 0xdf3e +
+          param_1[0x1e] * 0x5893 + param_1[0x1f] * 0x5154 + param_1[0x20] * -0x36cd +
+          param_1[0x21] * 0x1795 + param_1[0x22] * -0x3679 + param_1[0x23] * 0x319 +
+          param_1[0x24] * 0xaac0 + param_1[0x25] * -0x7153 + param_1[0x26] * -0xf3c4 == 0x889dea) {
+        if (param_1[0x27] * -0x26e1 +
+            *param_1 * 0xfc23 + param_1[1] * -0x101b + param_1[2] * -0xe5e7 + param_1[3] * 0xc213 +
+            param_1[4] * -0x4538 + param_1[5] * -0x74c + param_1[6] * -0xcf2d + param_1[7] * 0x5eb9
+            + param_1[8] * -0x665b + param_1[9] * -0x8529 + param_1[10] * 0xfb51 +
+            param_1[0xb] * -0xe6c7 + param_1[0xc] * 0xe957 + param_1[0xd] * 0x3560 +
+            param_1[0xe] * 0x573a + param_1[0xf] * -0x7910 + param_1[0x10] * 0xa7dd +
+            param_1[0x11] * -57999 + param_1[0x12] * 0x1c11 + param_1[0x13] * 0xbab7 +
+            param_1[0x14] * 0x276c + param_1[0x15] * -0x1a45 + param_1[0x16] * -0x4dfa +
+            param_1[0x17] * 0xad70 + param_1[0x18] * 0xc9c3 + param_1[0x19] * -0x8d72 +
+            param_1[0x1a] * 0xb4a6 + param_1[0x1b] * 0x6891 + param_1[0x1c] * 0x6ea2 +
+            param_1[0x1d] * -0x7b45 + param_1[0x1e] * -0x5f5 + param_1[0x1f] * 0xb393 +
+            param_1[0x20] * 0xc39d + param_1[0x21] * 0x5740 + param_1[0x22] * 0xc64a +
+            param_1[0x23] * 0xd82a + param_1[0x24] * 0xb594 + param_1[0x25] * -0x4680 +
+            param_1[0x26] * -0xbd18 == 0x1a12e65) {
+          if (param_1[0x27] * -0xbcdb +
+              *param_1 * 0x45ae + param_1[1] * 0x413c + param_1[2] * 0xfd8b + param_1[3] * -0x2e44 +
+              param_1[4] * 0xe56e + param_1[5] * -0x7c67 + param_1[6] * -0x6d96 +
+              param_1[7] * -0xa559 + param_1[8] * -0x46c9 + param_1[9] * 0x9f57 +
+              param_1[10] * 0x5ea4 + param_1[0xb] * 0x884e + param_1[0xc] * -0x3345 +
+              param_1[0xd] * 0xd132 + param_1[0xe] * -0x8de6 + param_1[0xf] * 0x782a +
+              param_1[0x10] * -0x6695 + param_1[0x11] * -0xc3c5 + param_1[0x12] * -0x7dc7 +
+              param_1[0x13] * -0xc187 + param_1[0x14] * 0x6796 + param_1[0x15] * 0xaae2 +
+              param_1[0x16] * 0x8564 + param_1[0x17] * 0xcbfc + param_1[0x18] * -0xa27e +
+              param_1[0x19] * 0xb53 + param_1[0x1a] * 0x9d01 + param_1[0x1b] * -0xb253 +
+              param_1[0x1c] * 0xb5da + param_1[0x1d] * -0x61cc + param_1[0x1e] * 0x1246 +
+              param_1[0x1f] * 0xe266 + param_1[0x20] * 0x296b + param_1[0x21] * -0x9574 +
+              param_1[0x22] * -0xabe8 + param_1[0x23] * 0x4fcc + param_1[0x24] * 0xa0bf +
+              param_1[0x25] * -0xc6c6 + param_1[0x26] * -0xf7aa == 0xbfd70e) {
+            if (param_1[0x27] * -0x5f56 +
+                *param_1 * -0xfa41 + param_1[1] * -0x5bc9 + param_1[2] * -0x9411 +
+                param_1[3] * -0x3af + param_1[4] * -0x98c8 + param_1[5] * 0x40c +
+                param_1[6] * -0x4f37 + param_1[7] * -0x67d7 + param_1[8] * 0x6adc +
+                param_1[9] * -0x834 + param_1[10] * 0x2377 + param_1[0xb] * 0x79eb +
+                param_1[0xc] * 0xe7b2 + param_1[0xd] * -0xcc40 + param_1[0xe] * 0xa45 +
+                param_1[0xf] * -0xbca2 + param_1[0x10] * 0x3046 + param_1[0x11] * -0xfa7d +
+                param_1[0x12] * 0xd6a2 + param_1[0x13] * -0x2a60 + param_1[0x14] * -0xcdeb +
+                param_1[0x15] * -0x2029 + param_1[0x16] * 0x3516 + param_1[0x17] * 0xad91 +
+                param_1[0x18] * -0xab3f + param_1[0x19] * 0xd3ff + param_1[0x1a] * -0x64dd +
+                param_1[0x1b] * -0x9e1a + param_1[0x1c] * 0xee59 + param_1[0x1d] * -0x32e2 +
+                param_1[0x1e] * -0x5c94 + param_1[0x1f] * 0xc406 + param_1[0x20] * -0xfd0d +
+                param_1[0x21] * -0x18ed + param_1[0x22] * 0x38a5 + param_1[0x23] * -0xdc83 +
+                param_1[0x24] * 0x4736 + param_1[0x25] * -0x4b5f + param_1[0x26] * -0xb58 ==
+                -0x1dbc64e) {
+              if (param_1[0x27] * 0x121b +
+                  *param_1 * 0x6846 + param_1[1] * -0x6e1a + param_1[2] * -0xd4cd +
+                  param_1[3] * 0xc4b9 + param_1[4] * -0xdc0d + param_1[5] * 0x64cf +
+                  param_1[6] * 0x80dc + param_1[7] * 0x783a + param_1[8] * 0xa3b8 +
+                  param_1[9] * -0x65d3 + param_1[10] * -0xf2dc + param_1[0xb] * 0xcf32 +
+                  param_1[0xc] * 0x94af + param_1[0xd] * 0x5699 + param_1[0xe] * 0xd92 +
+                  param_1[0xf] * -0x86be + param_1[0x10] * -0x5d62 + param_1[0x11] * -0x52ab +
+                  param_1[0x12] * -0x667e + param_1[0x13] * -0x714 + param_1[0x14] * -0x86e4 +
+                  param_1[0x15] * -0x4eb3 + param_1[0x16] * -0x720c + param_1[0x17] * 0x17d3 +
+                  param_1[0x18] * 0xc03d + param_1[0x19] * -0xe19c + param_1[0x1a] * 0x4069 +
+                  param_1[0x1b] * -0x612e + param_1[0x1c] * -0x56e4 + param_1[0x1d] * 0x13b7 +
+                  param_1[0x1e] * 0xfc90 + param_1[0x1f] * -0x51db + param_1[0x20] * -0xb6e +
+                  param_1[0x21] * 0x9d61 + param_1[0x22] * 0xda60 + param_1[0x23] * -0xf894 +
+                  param_1[0x24] * 0xdf24 + param_1[0x25] * 0x5286 + param_1[0x26] * 0xd413 ==
+                  0xa500a2) {
+                if (param_1[0x27] * -0x349c +
+                    *param_1 * 0xe64f + param_1[1] * -0x192d + param_1[2] * 0x57b6 +
+                    param_1[3] * -0x98c5 + param_1[4] * 0xf6c + param_1[5] * 0xd39b +
+                    param_1[6] * 0xb73c + param_1[7] * 0x9a4a + param_1[8] * -0xe9e3 +
+                    param_1[9] * -0xda46 + param_1[10] * -0x8cec + param_1[0xb] * -0x8c9e +
+                    param_1[0xc] * -0xd8b0 + param_1[0xd] * 0xd97a + param_1[0xe] * -0xf66a +
+                    param_1[0xf] * 0x138f + param_1[0x10] * -0x3b2c + param_1[0x11] * -0xe058 +
+                    param_1[0x12] * 0xd202 + param_1[0x13] * 0x9f44 + param_1[0x14] * 0xe97f +
+                    param_1[0x15] * -0x8c01 + param_1[0x16] * -0xa9d + param_1[0x17] * -0x90a5 +
+                    param_1[0x18] * 0xa302 + param_1[0x19] * 0x3d49 + param_1[0x1a] * -0x6c2f +
+                    param_1[0x1b] * 0x4b9 + param_1[0x1c] * 0x1913 + param_1[0x1d] * -0x2e8c +
+                    param_1[0x1e] * -0x64fc + param_1[0x1f] * 0x7e24 + param_1[0x20] * 0x7fa8 +
+                    param_1[0x21] * 0x78ce + param_1[0x22] * 0x30d2 + param_1[0x23] * -0x2b2c +
+                    param_1[0x24] * -0x59dc + param_1[0x25] * -0x27a0 + param_1[0x26] * -0xdb1f ==
+                    0x119813) {
+                  if (param_1[0x27] * -0x2566 +
+                      *param_1 * -0x62ae + param_1[1] * 0x35b2 + param_1[2] * -0x65a +
+                      param_1[3] * -0xc2c8 + param_1[4] * -0x8523 + param_1[5] * 0xc81f +
+                      param_1[6] * 0x63f1 + param_1[7] * 0x16 + param_1[8] * 0x44c9 +
+                      param_1[9] * 0xb733 + param_1[10] * -0xe1b9 + param_1[0xb] * 0xeee3 +
+                      param_1[0xc] * 0x70bb + param_1[0xd] * -0xf7b3 + param_1[0xe] * -0xb4d8 +
+                      param_1[0xf] * 0x59c2 + param_1[0x10] * 0xa45e + param_1[0x11] * 0x56f +
+                      param_1[0x12] * -0x5dc1 + param_1[0x13] * -0xb916 + param_1[0x14] * -0xe9c1 +
+                      param_1[0x15] * 0x44b7 + param_1[0x16] * -0x7718 + param_1[0x17] * -0x58c1 +
+                      param_1[0x18] * 0x5ec0 + param_1[0x19] * 0xbd96 + param_1[0x1a] * 0xfa96 +
+                      param_1[0x1b] * -0x9c70 + param_1[0x1c] * 0xf84e + param_1[0x1d] * 0x54d5 +
+                      param_1[0x1e] * 0xf4f4 + param_1[0x1f] * 0x3cc9 + param_1[0x20] * 0xa25d +
+                      param_1[0x21] * -0xa5aa + param_1[0x22] * -0x436e + param_1[0x23] * -0x7230 +
+                      param_1[0x24] * 0xe029 + param_1[0x25] * 0xac53 + param_1[0x26] * 0x8193 ==
+                      0x1a7c7be) {
+                    if (param_1[0x27] * 0x218e +
+                        *param_1 * 0x4907 + param_1[1] * 0xde8e + param_1[2] * -0x7bb5 +
+                        param_1[3] * -0xa1a5 + param_1[4] * -0xc2d4 + param_1[5] * 0xce02 +
+                        param_1[6] * -0x7bb1 + param_1[7] * 0x2efa + param_1[8] * -0x2bc7 +
+                        param_1[9] * -0xd027 + param_1[10] * 0x9424 + param_1[0xb] * 0x5ab7 +
+                        param_1[0xc] * -0xf142 + param_1[0xd] * -0xa073 + param_1[0xe] * 0xd6be +
+                        param_1[0xf] * 0xa2ae + param_1[0x10] * -0x2a47 + param_1[0x11] * -0x71aa +
+                        param_1[0x12] * 0x2657 + param_1[0x13] * -0x6fe8 + param_1[0x14] * -0x69a4 +
+                        param_1[0x15] * -0x3961 + param_1[0x16] * 0x5d09 + param_1[0x17] * 0x6a90 +
+                        param_1[0x18] * -0x92e3 + param_1[0x19] * -0x905 + param_1[0x1a] * -0x239b +
+                        param_1[0x1b] * 0xf39c + param_1[0x1c] * 0xac88 + param_1[0x1d] * 0x53d6 +
+                        param_1[0x1e] * 0xe651 + param_1[0x1f] * 0xf677 + param_1[0x20] * -0xfe75 +
+                        param_1[0x21] * -0xfc3b + param_1[0x22] * 0xb527 + param_1[0x23] * 0xe674 +
+                        param_1[0x24] * -0x7ba1 + param_1[0x25] * -0x8b4e + param_1[0x26] * 0x6bbb
+                        == 0x929838) {
+                      if (param_1[0x27] * -0xce96 +
+                          *param_1 * -0x7da3 + param_1[1] * -0x54bd + param_1[2] * -0x6084 +
+                          param_1[3] * 0x5264 + param_1[4] * -0x4400 + param_1[5] * 0x4d12 +
+                          param_1[6] * 0xae33 + param_1[7] * -0x7308 + param_1[8] * -0xf1b1 +
+                          param_1[9] * -0x1f00 + param_1[10] * -0x7b30 + param_1[0xb] * 0xf71a +
+                          param_1[0xc] * -0xf681 + param_1[0xd] * 0x3fca + param_1[0xe] * -0x5544 +
+                          param_1[0xf] * 0x8ec7 + param_1[0x10] * -0x8d5a + param_1[0x11] * -0xa634
+                          + param_1[0x12] * 0x132c + param_1[0x13] * 0x2b64 + param_1[0x14] * 0xaf69
+                          + param_1[0x15] * -0x2184 + param_1[0x16] * 0xadcb +
+                          param_1[0x17] * -0xa5b6 + param_1[0x18] * 0x3815 + param_1[0x19] * -0x8c38
+                          + param_1[0x1a] * 0x1f4a + param_1[0x1b] * 0x7f2 + param_1[0x1c] * -0x98bb
+                          + param_1[0x1d] * 0xb75e + param_1[0x1e] * -0x91b9 +
+                          param_1[0x1f] * 0xe349 + param_1[0x20] * -0x9b3c + param_1[0x21] * -0xfd30
+                          + param_1[0x22] * 0xebd0 + param_1[0x23] * -0x521 +
+                          param_1[0x24] * -0x69ab + param_1[0x25] * -0x6999 + param_1[0x26] * 0xb0c8
+                          == -0xfb934b) {
+                        if (param_1[0x27] * 0x5e33 +
+                            *param_1 * 0x2cf8 + param_1[1] * 0x4db7 + param_1[2] * -0x662a +
+                            param_1[3] * -0x2906 + param_1[4] * 0x16fd + param_1[5] * -0xc54e +
+                            param_1[6] * 58000 + param_1[7] * -0x7ed6 + param_1[8] * -0x976d +
+                            param_1[9] * 0xc742 + param_1[10] * 0xd241 + param_1[0xb] * 0x4642 +
+                            param_1[0xc] * -0x3adf + param_1[0xd] * 0x9152 + param_1[0xe] * 0x3316 +
+                            param_1[0xf] * -0xe96d + param_1[0x10] * -0x30e2 +
+                            param_1[0x11] * 0xfcde + param_1[0x12] * 0xcbad +
+                            param_1[0x13] * -0x9b3c + param_1[0x14] * -0x592a +
+                            param_1[0x15] * 0xe425 + param_1[0x16] * -0xbd15 +
+                            param_1[0x17] * -0x46e4 + param_1[0x18] * 0xf0bd +
+                            param_1[0x19] * -0xb9e0 + param_1[0x1a] * -0x66a2 +
+                            param_1[0x1b] * 0x2c3f + param_1[0x1c] * 0xb4ab + param_1[0x1d] * 0xe6a3
+                            + param_1[0x1e] * -0x73cb + param_1[0x1f] * -0xeefc +
+                            param_1[0x20] * 0x7f40 + param_1[0x21] * -0xdbcf +
+                            param_1[0x22] * -0xec7c + param_1[0x23] * -0x51a6 +
+                            param_1[0x24] * -0x6877 + param_1[0x25] * -0x9202 +
+                            param_1[0x26] * 0x4242 == 0xad180) {
+                          if (param_1[0x27] * 0xc494 +
+                              *param_1 * 0xe6fd + param_1[1] * -0x9182 + param_1[2] * -0xf097 +
+                              param_1[3] * -0xd478 + param_1[4] * -0x5944 + param_1[5] * -0x55d2 +
+                              param_1[6] * 0x10d9 + param_1[7] * -0xffe6 + param_1[8] * -0xc066 +
+                              param_1[9] * 0xbceb + param_1[10] * -0x94b8 + param_1[0xb] * 0x55ee +
+                              param_1[0xc] * -0xbf40 + param_1[0xd] * 0xf373 + param_1[0xe] * 0xa772
+                              + param_1[0xf] * -0xf263 + param_1[0x10] * 0x290e +
+                              param_1[0x11] * -0x4dd8 + param_1[0x12] * -0x9a0a +
+                              param_1[0x13] * 0xc7e7 + param_1[0x14] * -0xe98d +
+                              param_1[0x15] * 0x7833 + param_1[0x16] * 0x7b31 +
+                              param_1[0x17] * -0x4345 + param_1[0x18] * 0x556a +
+                              param_1[0x19] * 0xff3e + param_1[0x1a] * -0x5cd5 +
+                              param_1[0x1b] * -0xfdb + param_1[0x1c] * -0xf7d0 +
+                              param_1[0x1d] * -0xb74a + param_1[0x1e] * 0x62eb +
+                              param_1[0x1f] * -0xbd82 + param_1[0x20] * 0xe756 +
+                              param_1[0x21] * -0xfdf4 + param_1[0x22] * -0x88f0 +
+                              param_1[0x23] * 0xb44c + param_1[0x24] * -0x8b02 +
+                              param_1[0x25] * 0x7cb9 + param_1[0x26] * 0x8a51 == -0xf4dc6c) {
+                            if (param_1[0x27] * -0xdbed +
+                                *param_1 * 0xd1ad + param_1[1] * 0x98f9 + param_1[2] * 0x70f0 +
+                                param_1[3] * -0xda5c + param_1[4] * 0x669a + param_1[5] * -0x4cbb +
+                                param_1[6] * -0xbfd9 + param_1[7] * -0xb41f + param_1[8] * -0xf88c +
+                                param_1[9] * 0x737b + param_1[10] * -0xc172 + param_1[0xb] * 0x9148
+                                + param_1[0xc] * 0xb0a2 + param_1[0xd] * -0x222a +
+                                param_1[0xe] * 0xb873 + param_1[0xf] * 0x9b91 +
+                                param_1[0x10] * -0xf9c2 + param_1[0x11] * -0xac6a +
+                                param_1[0x12] * -0xb53b + param_1[0x13] * 0x6b6d +
+                                param_1[0x14] * 0xd708 + param_1[0x15] * 0x4625 +
+                                param_1[0x16] * 0xb626 + param_1[0x17] * 0xcea1 +
+                                param_1[0x18] * -0xd620 + param_1[0x19] * 0x65cd +
+                                param_1[0x1a] * -0xb1ea + param_1[0x1b] * -0xbe03 +
+                                param_1[0x1c] * -0x3120 + param_1[0x1d] * 0x9cb7 +
+                                param_1[0x1e] * 0x6702 + param_1[0x1f] * -0x855b +
+                                param_1[0x20] * -0xe11d + param_1[0x21] * -0x6abf +
+                                param_1[0x22] * -0x278a + param_1[0x23] * -0x641b +
+                                param_1[0x24] * 0x56bc + param_1[0x25] * 0xe8c2 +
+                                param_1[0x26] * 0x3de4 == -0x25130b) {
+                              if (param_1[0x27] * -0x9fa9 +
+                                  *param_1 * 0x8f27 + param_1[1] * -0x1dda + param_1[2] * -0x2372 +
+                                  param_1[3] * 0x858b + param_1[4] * 0x875a + param_1[5] * 0xa09d +
+                                  param_1[6] * 0xea38 + param_1[7] * 0x3ae5 + param_1[8] * -0x32d2 +
+                                  param_1[9] * 0xec10 + param_1[10] * -0x51c2 +
+                                  param_1[0xb] * 0xb203 + param_1[0xc] * 0x920e +
+                                  param_1[0xd] * 0xa271 + param_1[0xe] * 0x4e83 +
+                                  param_1[0xf] * 0xc2e0 + param_1[0x10] * 0xaee1 +
+                                  param_1[0x11] * 0xf6ad + param_1[0x12] * 0xaed9 +
+                                  param_1[0x13] * 0x5505 + param_1[0x14] * -0xdb45 +
+                                  param_1[0x15] * 0x5e81 + param_1[0x16] * -0xbd12 +
+                                  param_1[0x17] * -0x4725 + param_1[0x18] * 0xa11f +
+                                  param_1[0x19] * 0xefcc + param_1[0x1a] * -0x25b +
+                                  param_1[0x1b] * -0xab4a + param_1[0x1c] * -0x5b4a +
+                                  param_1[0x1d] * -0xf3ab + param_1[0x1e] * 0x9fe4 +
+                                  param_1[0x1f] * 0xe87 + param_1[0x20] * -0x9a99 +
+                                  param_1[0x21] * -0x9411 + param_1[0x22] * -0xa704 +
+                                  param_1[0x23] * -0xc152 + param_1[0x24] * 0x3fab +
+                                  param_1[0x25] * -0xa24d + param_1[0x26] * 0xe970 == 0x1f77eef) {
+                                if (param_1[0x27] * 0xcdc4 +
+                                    *param_1 * 0xdb0c + param_1[1] * -0x2da7 + param_1[2] * 0xe67a +
+                                    param_1[3] * 0x91bb + param_1[4] * 0xc054 + param_1[5] * -0x553a
+                                    + param_1[6] * -0x69f8 + param_1[7] * 0x697b +
+                                    param_1[8] * 0xab47 + param_1[9] * -0x5dff +
+                                    param_1[10] * 0x2852 + param_1[0xb] * -0xa32b +
+                                    param_1[0xc] * -0x760d + param_1[0xd] * 0xbae1 +
+                                    param_1[0xe] * -0x5e07 + param_1[0xf] * -0x9af2 +
+                                    param_1[0x10] * -0x57b8 + param_1[0x11] * 0x265e +
+                                    param_1[0x12] * 0x97ab + param_1[0x13] * 0x8a49 +
+                                    param_1[0x14] * -0x840a + param_1[0x15] * 0xceae +
+                                    param_1[0x16] * -0x2bb8 + param_1[0x17] * 0x9957 +
+                                    param_1[0x18] * 0xe588 + param_1[0x19] * 0xb9c7 +
+                                    param_1[0x1a] * 0x4cfb + param_1[0x1b] * -0x7382 +
+                                    param_1[0x1c] * 0x35 + param_1[0x1d] * -0x8f85 +
+                                    param_1[0x1e] * -0x2d29 + param_1[0x1f] * 0xb545 +
+                                    param_1[0x20] * 0x3bdd + param_1[0x21] * 0x8c82 +
+                                    param_1[0x22] * 0x8926 + param_1[0x23] * 0x53cd +
+                                    param_1[0x24] * 0x7745 + param_1[0x25] * -0xc379 +
+                                    param_1[0x26] * 0x59a5 == 0x21f94f0) {
+                                  if (param_1[0x27] * -0x59e8 +
+                                      *param_1 * -0xe104 + param_1[1] * -0x9210 +
+                                      param_1[2] * 0xdaea + param_1[3] * -0x46af +
+                                      param_1[4] * 0xa1a1 + param_1[5] * -0xde53 +
+                                      param_1[6] * 0xdec9 + param_1[7] * -0x72f5 +
+                                      param_1[8] * 0xfb0a + param_1[9] * 0x1879 +
+                                      param_1[10] * 0xd394 + param_1[0xb] * 0xf1a9 +
+                                      param_1[0xc] * -0xd8f0 + param_1[0xd] * 0x78c5 +
+                                      param_1[0xe] * 0x83d + param_1[0xf] * 0x50c +
+                                      param_1[0x10] * 0x7840 + param_1[0x11] * -0x9fca +
+                                      param_1[0x12] * -0x6d10 + param_1[0x13] * 0x6179 +
+                                      param_1[0x14] * -0x4f90 + param_1[0x15] * 0xc8ef +
+                                      param_1[0x16] * -0x9758 + param_1[0x17] * -0x19fe +
+                                      param_1[0x18] * -0x5771 + param_1[0x19] * 0xcfa0 +
+                                      param_1[0x1a] * 0xca8e + param_1[0x1b] * -0xde3c +
+                                      param_1[0x1c] * 0xe8 + param_1[0x1d] * -0x4469 +
+                                      param_1[0x1e] * -0xc1a7 + param_1[0x1f] * -0x9fee +
+                                      param_1[0x20] * 0xac91 + param_1[0x21] * 0x254b +
+                                      param_1[0x22] * -0xf3ae + param_1[0x23] * -0x75e9 +
+                                      param_1[0x24] * -0x3e82 + param_1[0x25] * -0x30d2 +
+                                      param_1[0x26] * 0x1e75 == -0xdc6d36) {
+                                    if (param_1[0x27] * -0x2bc9 +
+                                        *param_1 * 0x7353 + param_1[1] * 0x2657 +
+                                        param_1[2] * -0x4a51 + param_1[3] * -0x5725 +
+                                        param_1[4] * -0xdf1 + param_1[5] * -0x35ca +
+                                        param_1[6] * -0xf681 + param_1[7] * 0xa98c +
+                                        param_1[8] * 0xb358 + param_1[9] * 0x6b7e +
+                                        param_1[10] * 0x6aa + param_1[0xb] * -0x8b2d +
+                                        param_1[0xc] * 0xe048 + param_1[0xd] * 0x56e0 +
+                                        param_1[0xe] * 0x4490 + param_1[0xf] * -0xb895 +
+                                        param_1[0x10] * -0x8eb + param_1[0x11] * -0x70ed +
+                                        param_1[0x12] * 0xcf83 + param_1[0x13] * -0xc567 +
+                                        param_1[0x14] * -0xad76 + param_1[0x15] * 0x7eec +
+                                        param_1[0x16] * 0x7a48 + param_1[0x17] * -0xfa07 +
+                                        param_1[0x18] * 0x8a3a + param_1[0x19] * 0x14a +
+                                        param_1[0x1a] * -0x33b + param_1[0x1b] * -0x53e0 +
+                                        param_1[0x1c] * -0xf2a7 + param_1[0x1d] * -0xb7e9 +
+                                        param_1[0x1e] * -0xdf76 + param_1[0x1f] * 0x426d +
+                                        param_1[0x20] * -0xcaa9 + param_1[0x21] * 0xc497 +
+                                        param_1[0x22] * 0x557a + param_1[0x23] * -0xb1ab +
+                                        param_1[0x24] * 0x58c5 + param_1[0x25] * -0x1c0c +
+                                        param_1[0x26] * -0xd907 == -0x1dc2575) {
+                                      if (param_1[0x27] * 0x6f2e +
+                                          *param_1 * 0x901d + param_1[1] * -0x195a +
+                                          param_1[2] * 0xc739 + param_1[3] * -0x62ff +
+                                          param_1[4] * 0xfaaa + param_1[5] * 0xf7a6 +
+                                          param_1[6] * -0xbc1 + param_1[7] * 0x6406 +
+                                          param_1[8] * 0xf686 + param_1[9] * -0xf8ff +
+                                          param_1[10] * 0x3c44 + param_1[0xb] * -0x8f99 +
+                                          param_1[0xc] * -0xab18 + param_1[0xd] * -0xcd22 +
+                                          param_1[0xe] * -0xec7c + param_1[0xf] * -0x4d66 +
+                                          param_1[0x10] * 0x9a5e + param_1[0x11] * -0x26f1 +
+                                          param_1[0x12] * 0x8a4b + param_1[0x13] * 0x1d7e +
+                                          param_1[0x14] * -0x35dd + param_1[0x15] * 0x1009 +
+                                          param_1[0x16] * -0x93ab + param_1[0x17] * -0x30a +
+                                          param_1[0x18] * -0x9ad4 + param_1[0x19] * 0x631b +
+                                          param_1[0x1a] * 0x75d4 + param_1[0x1b] * 0xfd3a +
+                                          param_1[0x1c] * -0x7e8f + param_1[0x1d] * 0x7072 +
+                                          param_1[0x1e] * 0xd45b + param_1[0x1f] * 0x7a26 +
+                                          param_1[0x20] * 0xa740 + param_1[0x21] * -0x2064 +
+                                          param_1[0x22] * -0x4f6a + param_1[0x23] * 0x5c56 +
+                                          param_1[0x24] * -0x33d8 + param_1[0x25] * -0x3d9a +
+                                          param_1[0x26] * -0xe3b9 == 0x1092312) {
+                                        chk = param_1[0x27] * 0x458a +
+                                              *param_1 * 0xc479 + param_1[1] * 0x7690 +
+                                              param_1[2] * -0x659d + param_1[3] * -0xb994 +
+                                              param_1[4] * 0x3389 + param_1[5] * -0xa6e3 +
+                                              param_1[6] * -0x6be5 + param_1[7] * 0xae60 +
+                                              param_1[8] * -0x13bf + param_1[9] * -0x45a5 +
+                                              param_1[10] * 0xb1ef + param_1[0xb] * -0x5795 +
+                                              param_1[0xc] * -0xcdf + param_1[0xd] * -0x4835 +
+                                              param_1[0xe] * -0xf2d + param_1[0xf] * 0x51d9 +
+                                              param_1[0x10] * -0xb93f + param_1[0x11] * 0xd39f +
+                                              param_1[0x12] * -0xa8b4 + param_1[0x13] * -0xb406 +
+                                              param_1[0x14] * -0xce4 + param_1[0x15] * -0xefe4 +
+                                              param_1[0x16] * 0x3db1 + param_1[0x17] * 0xb8e9 +
+                                              param_1[0x18] * -0xfc5c + param_1[0x19] * 0xe360 +
+                                              param_1[0x1a] * 0x5fab + param_1[0x1b] * 0x9c6f +
+                                              param_1[0x1c] * -0xa12e + param_1[0x1d] * 0xa8db +
+                                              param_1[0x1e] * 0xd4a9 + param_1[0x1f] * 0x3d5c +
+                                              param_1[0x20] * 0xf3cf + param_1[0x21] * -0x71f9 +
+                                              param_1[0x22] * -0x5461 + param_1[0x23] * 0xaa1a +
+                                              param_1[0x24] * -0x1c4 + param_1[0x25] * 0x2aaa +
+                                              param_1[0x26] * 0x72d8;
+                                        if (chk == 0xd64a95) {
+                                          chk = 1;
+                                        }
+                                      }
+                                      else {
+                                        chk = 0;
+                                      }
+                                    }
+                                    else {
+                                      chk = 0;
+                                    }
+                                  }
+                                  else {
+                                    chk = 0;
+                                  }
+                                }
+                                else {
+                                  chk = 0;
+                                }
+                              }
+                              else {
+                                chk = 0;
+                              }
+                            }
+                            else {
+                              chk = 0;
+                            }
+                          }
+                          else {
+                            chk = 0;
+                          }
+                        }
+                        else {
+                          chk = 0;
+                        }
+                      }
+                      else {
+                        chk = 0;
+                      }
+                    }
+                    else {
+                      chk = 0;
+                    }
+                  }
+                  else {
+                    chk = 0;
+                  }
+                }
+                else {
+                  chk = 0;
+                }
+              }
+              else {
+                chk = 0;
+              }
+            }
+            else {
+              chk = 0;
+            }
+          }
+          else {
+            chk = 0;
+          }
+        }
+        else {
+          chk = 0;
+        }
+      }
+      else {
+        chk = 0;
+      }
+    }
+    else {
+      chk = 0;
+    }
+  }
+  else {
+    chk = 0;
+  }
+  return chk;
+}
+

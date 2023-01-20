@@ -1,0 +1,48 @@
+TARGET 0 - 'echo-echo': ELF-X64, 0x00000000400080 entry, 195/1 executable bytes/segments 
+
+0x000000004000ae: add [rax+0x1], bh; mov edi, 0x1; syscall; 
+0x000000004000ac: add [rax], al; add [rax+0x1], bh; mov edi, 0x1; syscall; 
+0x00000000400057: add [rax], al; add [rax], al; add [rax], al; add [rax], al; ret; 
+0x00000000400062: add [rax], al; add [rax], al; add [rax], al; ret; 
+0x00000000400059: add [rax], al; add [rax], al; add [rax], al; ret; 
+0x0000000040005c: add [rax], al; add [rax], al; ret; 
+0x00000000400097: add [rax], al; add [rax], al; syscall; 
+0x000000004000b1: add [rax], al; add [rdi+0x1], bh; syscall; 
+0x000000004000b6: add [rax], al; add [rdi], cl; add eax, 0x3cb8c3; add [rax], al; syscall; 
+0x00000000400094: add [rax], al; mov eax, 0x0; syscall; 
+0x000000004000ad: add [rax], al; mov eax, 0x1; mov edi, 0x1; syscall; 
+0x000000004000b2: add [rax], al; mov edi, 0x1; syscall; 
+0x0000000040005e: add [rax], al; ret; 
+0x00000000400099: add [rax], al; syscall; 
+0x00000000400095: add [rax], bh; syscall; 
+0x000000004000b0: add [rax], eax; add [rax], al; mov edi, 0x1; syscall; 
+0x000000004000b5: add [rax], eax; add [rax], al; syscall; 
+0x00000000400093: add [rax], eax; add [rax], bh; syscall; 
+0x000000004000b3: add [rdi+0x1], bh; syscall; 
+0x000000004000b8: add [rdi], cl; add eax, 0x3cb8c3; add [rax], al; syscall; 
+0x000000004000ba: add eax, 0x3cb8c3; add [rax], al; syscall; 
+0x000000004000bd: cmp al, 0x0; add [rax], al; syscall; 
+0x00000000400096: mov eax, 0x0; syscall; 
+0x000000004000af: mov eax, 0x1; mov edi, 0x1; syscall; 
+0x000000004000bc: mov eax, 0x3c; syscall; 
+0x000000004000b4: mov edi, 0x1; syscall; 
+0x00000000400091: mov edx, 0x12c; mov eax, 0x0; syscall; 
+0x000000004000aa: mov edx, 0x8; mov eax, 0x1; mov edi, 0x1; syscall; 
+0x0000000040008b: mov esi, esp; sub rsi, 0x8; mov edx, 0x12c; mov eax, 0x0; syscall; 
+0x0000000040008a: mov rsi, rsp; sub rsi, 0x8; mov edx, 0x12c; mov eax, 0x0; syscall; 
+0x000000004000ab: or [rax], al; add [rax], al; mov eax, 0x1; mov edi, 0x1; syscall; 
+0x00000000400090: or [rdx+0x12c], bh; mov eax, 0x0; syscall; 
+0x000000004000a9: or [rdx+0x8], bh; mov eax, 0x1; mov edi, 0x1; syscall; 
+0x0000000040008c: out 0x48, al; sub esi, 0x8; mov edx, 0x12c; mov eax, 0x0; syscall; 
+0x0000000040008f: out dx, al; or [rdx+0x12c], bh; mov eax, 0x0; syscall; 
+0x000000004000a8: out dx, al; or [rdx+0x8], bh; mov eax, 0x1; mov edi, 0x1; syscall; 
+0x00000000400060: ret; 
+0x00000000400092: sub al, 0x1; add [rax], al; mov eax, 0x0; syscall; 
+0x0000000040008e: sub esi, 0x8; mov edx, 0x12c; mov eax, 0x0; syscall; 
+0x000000004000a7: sub esi, 0x8; mov edx, 0x8; mov eax, 0x1; mov edi, 0x1; syscall; 
+0x0000000040008d: sub rsi, 0x8; mov edx, 0x12c; mov eax, 0x0; syscall; 
+0x000000004000a6: sub rsi, 0x8; mov edx, 0x8; mov eax, 0x1; mov edi, 0x1; syscall; 
+0x0000000040009b: syscall; 
+
+CONFIG [ search: ROP-JOP-SYS (default), x_match: none, max_len: 5, syntax: Intel, regex_filter: none ]
+RESULT [ unique_gadgets: 43, search_time: 2.910697ms, print_time: 6.660389ms ]
